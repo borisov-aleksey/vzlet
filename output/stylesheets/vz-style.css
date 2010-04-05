@@ -46,7 +46,7 @@ h1.logo {
     display: block; }
 
 .hMenu, .m_links_c, .hMenu ul, .hMenu ul li, .hMenu .li_c, .hMenu .li_c strong, .hMenu .li_c a {
-  background-image: url(images/vzlet/headerMenu.png);
+  background-image: url(../images/vzlet/headerMenu.png);
   background-repeat: no-repeat; }
 
 .hMenu {
@@ -110,7 +110,7 @@ h1.logo {
     line-height: 24px;
     padding: 0 8px; }
   .search input {
-    background: transparent url(images/vzlet/headerSearch.png) no-repeat 0 0;
+    background: transparent url(../images/vzlet/headerSearch.png) no-repeat 0 0;
     border: none;
     float: left;
     height: 14px;
@@ -118,7 +118,7 @@ h1.logo {
     width: 141px;
     padding: 5px 8px; }
   .search button {
-    background: transparent url(images/vzlet/headerSearch.png) no-repeat -157px 0;
+    background: transparent url(../images/vzlet/headerSearch.png) no-repeat -157px 0;
     border: none;
     width: 24px;
     height: 24px;
@@ -183,7 +183,7 @@ h1.logo {
   .pagerBox .pages {
     overflow: hidden; }
     .pagerBox .pages li, .pagerBox .pages li a, .pagerBox .pages li strong {
-      background: transparent url(images/vzlet/pager.png) no-repeat 0 0; }
+      background: transparent url(../images/vzlet/pager.png) no-repeat 0 0; }
     .pagerBox .pages li {
       float: left;
       margin: 0 2px 0 0;
