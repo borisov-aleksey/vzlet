@@ -1,0 +1,232 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+#autoFooterC {
+  position: relative;
+  min-height: 100%;
+  min-width: 960px;
+  -height: 100%; }
+
+#autoFooterMargin {
+  height: 97px;
+  width: 1px;
+  clear: both; }
+
+#autoFooter {
+  position: relative;
+  height: 77px;
+  margin-top: -97px; }
+
+#autoFooterC, #autoFooter {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto; }
+
+a {
+  color: #3287cc;
+  text-decoration: underline; }
+
+.wrp {
+  clear: both; }
+
+h1.logo {
+  font-family: Tahoma, Geneva, sans-serif, Verdana;
+  color: #267bc7;
+  line-height: 33px;
+  font-size: 33px;
+  font-style: italic;
+  padding: 18px 0 24px 14px;
+  float: left; }
+  h1.logo img {
+    width: 301px;
+    height: 33px;
+    display: block; }
+
+.hMenu, .m_links_c, .hMenu ul, .hMenu ul li, .hMenu .li_c, .hMenu .li_c strong, .hMenu .li_c a {
+  background-image: url(/images/vzlet/headerMenu.png);
+  background-repeat: no-repeat; }
+
+.hMenu {
+  background-repeat: repeat-x; }
+  .hMenu .m_links_c {
+    background-position: left -40px; }
+
+.hMenu {
+  font-family: Tahoma, Geneva, sans-serif, Verdana;
+  font-size: 11px;
+  background-color: #f5f5f5; }
+  .hMenu ul {
+    background-position: right -80px;
+    height: 30px;
+    padding: 5px 13px; }
+    .hMenu ul li {
+      float: left;
+      background-repeat: repeat-x;
+      background-position: 0 -120px; }
+      .hMenu ul li .li_c {
+        background-position: left -148px;
+        float: left; }
+      .hMenu ul li a, .hMenu ul li strong {
+        padding: 0 15px;
+        background-position: right -176px;
+        height: 28px;
+        line-height: 28px;
+        font-weight: normal;
+        color: #000;
+        text-decoration: none;
+        float: left; }
+      .hMenu ul li a {
+        cursor: pointer; }
+      .hMenu ul li.hover {
+        background-color: #fcfcfc;
+        background-position: 0 -204px; }
+        .hMenu ul li.hover .li_c {
+          background-position: left -232px; }
+        .hMenu ul li.hover a, .hMenu ul li.hover strong {
+          background-position: right -260px; }
+      .hMenu ul li.active {
+        background-color: #2d83ca;
+        background-position: 0 -288px; }
+        .hMenu ul li.active .li_c {
+          background-position: left -316px; }
+        .hMenu ul li.active a, .hMenu ul li.active strong {
+          background-position: right -344px;
+          color: #fff;
+          cursor: default; }
+
+.search {
+  font-family: Tahoma, Geneva, sans-serif, Verdana;
+  font-size: 11px;
+  position: relative;
+  float: right;
+  margin: 27px 13px 0 0; }
+  .search label {
+    color: #b7b6b6;
+    position: absolute;
+    left: 0;
+    line-height: 24px;
+    padding: 0 8px; }
+  .search input {
+    background: transparent url(/images/vzlet/headerSearch.png) no-repeat 0 0;
+    border: none;
+    float: left;
+    height: 14px;
+    line-height: 16px;
+    width: 141px;
+    padding: 5px 8px; }
+  .search button {
+    background: transparent url(/images/vzlet/headerSearch.png) no-repeat -157px 0;
+    border: none;
+    width: 24px;
+    height: 24px;
+    padding: 24px 0 0 0;
+    overflow: hidden; }
+
+.sMenu {
+  font-family: Tahoma, Geneva, sans-serif, Verdana;
+  font-size: 11px;
+  margin-left: -40px; }
+  .sMenu li {
+    margin-left: 40px;
+    display: inline; }
+  .sMenu a {
+    cursor: pointer; }
+  .sMenu .active a, .sMenu .active strong {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none; }
+  .sMenu .active strong {
+    cursor: default; }
+
+.breadcrumbs {
+  font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+  font-size: 19px; }
+  .breadcrumbs li {
+    display: inline; }
+
+.breadcrumbs li:first-child:before {
+  content: ""; }
+
+.breadcrumbs li:before {
+  color: #9e9e9e;
+  font-family: "Times New Roman", sans-serif;
+  content: "\a0\2192\20"; }
+
+.pagerBox {
+  font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+  font-size: 14px;
+  padding: 10px 0;
+  cursor: default; }
+  .pagerBox a {
+    cursor: pointer; }
+  .pagerBox .arrows {
+    overflow: hidden;
+    zoom: 1;
+    padding: 0 0 10px; }
+    .pagerBox .arrows li {
+      float: left;
+      margin: 0;
+      padding: 0 30px 0 0; }
+      .pagerBox .arrows li span {
+        color: #929292;
+        font-size: 11px; }
+      .pagerBox .arrows li a, .pagerBox .arrows li strong {
+        padding: 0 5px; }
+      .pagerBox .arrows li strong {
+        color: #929292;
+        font-weight: normal;
+        text-decoration: underline;
+        font-size: 14px; }
+  .pagerBox .pages {
+    overflow: hidden; }
+    .pagerBox .pages li, .pagerBox .pages li a, .pagerBox .pages li strong {
+      background: transparent url(/images/vzlet/pager.png) no-repeat 0 0; }
+    .pagerBox .pages li {
+      float: left;
+      margin: 0 2px 0 0;
+      padding: 0; }
+      .pagerBox .pages li a, .pagerBox .pages li strong, .pagerBox .pages li span {
+        color: #000;
+        float: left;
+        height: 26px;
+        line-height: 26px;
+        padding: 0 10px;
+        text-decoration: none; }
+      .pagerBox .pages li.hover {
+        background-position: right -104px; }
+        .pagerBox .pages li.hover a, .pagerBox .pages li.hover strong {
+          background-position: left -130px; }
+      .pagerBox .pages li.active {
+        background-color: #3e94d1;
+        background-position: right -52px; }
+        .pagerBox .pages li.active a, .pagerBox .pages li.active strong {
+          color: #fff;
+          font-weight: normal;
+          background-position: left -78px; }
+      .pagerBox .pages li.disable {
+        background-position: right 0; }
+        .pagerBox .pages li.disable a, .pagerBox .pages li.disable strong {
+          background-position: left -26px; }
+
+.content {
+  padding: 0 28px; }
+
+.footer {
+  font-family: Tahoma, Geneva, sans-serif, Verdana;
+  font-size: 11px;
+  line-height: 14px; }
+  .footer .fColumn, .footer .sColumn, .footer .tColumn {
+    float: left; }
+  .footer .fColumn {
+    width: 362px; }
+  .footer .sColumn {
+    width: 260px; }
+  .footer .tColumn {
+    width: 310px; }
+  .footer .copy {
+    padding-top: 1em;
+    clear: both;
+    display: block; }
