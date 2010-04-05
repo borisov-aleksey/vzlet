@@ -1,0 +1,48 @@
+* {
+  font-size: 1.001em;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  text-decoration: none; }
+
+code, kbd, samp, pre, tt, var, textarea, input, select, isindex {
+  font: inherit;
+  font-size: 1em; }
+
+dfn, i, cite, var, address, em {
+  font-style: normal; }
+
+th, b, strong, h1, h2, h3, h4, h5, h6 {
+
+  font-weight: bold; }
+
+a, img, a img, iframe, form, fieldset, abbr, acronym, object, applet {
+  border: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td, center {
+  text-align: left;
+  vertical-align: top; }
+
+body {
+  background: #FFF;
+  color: #000;
+  line-height: 1; }
+
+q {
+  quotes: "" ""; }
+
+ul, ol, dir, menu {
+  list-style: none; }
+
+sub, sup {
+  vertical-align: baseline; }
+
+a {
+  color: inherit; }
+
+hr {
+  display: none; }
