@@ -1,0 +1,359 @@
+=fontTahoma
+  :font-family Tahoma, Geneva, sans-serif, Verdana
+=fontArial
+  :font-family Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif
+
+!img = "../images/vzlet"
+
+
+html, body
+  :height 100%
+  :margin 0
+  :padding 0
+  :width 100%
+
+#autoFooterC
+  :position relative
+  :min-height 100%
+  :min-width 960px
+  :-height 100%
+#autoFooterMargin
+  :height 97px
+  :width 1px
+  :clear both
+
+#autoFooter
+  :position relative
+  :height 77px
+  :margin-top -97px
+#autoFooterC, #autoFooter
+  :width 930px
+  :padding 0 15px
+  :margin
+    :left auto
+    :right auto
+
+a
+  :color #3287cc
+  :text-decoration underline
+  &:hover
+
+.wrp
+  :clear both
+
+h1.logo
+  +fontTahoma
+  :color #267bc7
+  :line-height 33px
+  :font
+    :size 33px
+    :style italic
+  :padding 18px 0 24px 14px
+  :float left
+  img
+    :width 301px
+    :height 33px
+    :display block
+
+.hMenu, .m_links_c, .hMenu ul, .hMenu ul li, .hMenu .li_c, .hMenu .li_c strong, .hMenu .li_c a
+  :background-image = "url(" + !img + "/headerMenu.png)"
+  :background-repeat no-repeat
+.hMenu
+  :background-repeat repeat-x
+  .m_links_c
+    :background-position left -40px
+.hMenu
+  +fontTahoma
+  :font-size 11px
+  :background-color #f5f5f5
+  ul
+    :background-position right -80px
+    :height 30px
+    :padding 5px 13px
+    li
+      :float left
+      :background-repeat repeat-x
+      :background-position 0 -120px
+      .li_c
+        :background-position left -148px
+        :float left
+      a, strong
+        :padding 0 15px
+        :background-position right -176px
+        :height 28px
+        :line-height 28px
+        :font-weight normal
+        :color #000
+        :text-decoration none
+        :float left
+      a
+        :cursor pointer
+      &.hover
+        :background-color #fcfcfc
+        :background-position 0 -204px
+        .li_c
+          :background-position left -232px
+        a, strong
+          :background-position right -260px
+      &.active
+        :background-color #2d83ca
+        :background-position 0 -288px
+        .li_c
+          :background-position left -316px
+        a, strong
+          :background-position right -344px
+          :color #fff
+          :cursor default
+.search
+  +fontTahoma
+  :font-size 11px
+  :position relative
+  :float right
+  :margin 27px 13px 0 0
+  label
+    :cursor text
+    :color #b7b6b6
+    :position absolute
+    :left 0
+    :line-height 24px
+    :padding 0 8px
+  input
+    :background = "transparent url(" + !img + "/headerSearch.png) no-repeat 0 0"
+    :border none
+    :float left
+    :height 14px
+    :line-height 16px
+    :width 141px
+    :padding 5px 8px
+  button
+    :background = "transparent url(" + !img + "/headerSearch.png) no-repeat -157px 0"
+    :border none
+    :width 24px
+    :height 24px
+    :padding 24px 0 0 0
+    :overflow hidden
+
+.sMenu
+  +fontTahoma
+  :font-size 11px
+  :margin 36px 0 36px -40px
+  li
+    :margin-left 40px
+    :display inline
+  a
+    :cursor pointer
+  .active
+    a, strong
+      :color #000
+      :font-weight bold
+      :text-decoration none
+    strong
+      :cursor default
+
+
+.breadcrumbs
+  +fontArial
+  :font-size 19px
+  :margin 30px 0
+  h3
+    :display inline
+    +fontArial
+    :font-size 19px
+    :font-weight normal
+  li
+    :display inline
+.breadcrumbs li:first-child:before
+  :content ""
+.breadcrumbs li:before
+  :color #9e9e9e
+  :font-family "Times New Roman", sans-serif
+  :content "\a0\2192\20"
+
+
+.pagerBox
+  +fontArial
+  :font-size 14px
+  :padding 10px 0
+  :cursor default
+  a
+    :cursor pointer
+  .arrows
+    :overflow hidden
+    :zoom 1
+    :padding 0 0 10px
+    li
+      :float left
+      :margin 0
+      :padding 0 30px 0 0
+      span
+        :color #929292
+        :font-size 11px
+      a, strong
+        :padding 0 5px
+      strong
+        :color #929292
+        :font-weight normal
+        :text-decoration underline
+        :font-size 14px
+  .pages
+    :overflow hidden
+    li, li a, li strong
+      :background = "transparent url(" + !img + "/pager.png) no-repeat 0 0"
+    li
+      :float left
+      :margin 0 2px 0 0
+      :padding 0
+      a, strong, span
+        :color #000
+        :float left
+        :height 26px
+        :line-height 26px
+        :padding 0 10px
+        :text-decoration none
+      &.hover
+        :background-position right -104px
+        a, strong
+          :background-position left -130px
+      &.active
+        :background-color #3e94d1
+        :background-position right -52px
+        a, strong
+          :color #fff
+          :font-weight normal
+          :background-position left -78px
+      &.disable
+        :background-position right 0
+        a, strong
+          :background-position left -26px
+
+.content
+  :padding 0 28px
+
+  .layout50
+    :width 410px
+    :float left
+  .layout_l
+    :padding-right 30px
+  .layout_r
+    :padding-left 30px
+
+  .layout70_l
+    
+  .layout30_r
+    :float right
+    :width 200px
+
+.siteMenu
+  :margin-left -12px
+  +fontTahoma
+  :font-size 12px
+  li
+    :margin 0 16px
+    .li_c
+      :line-height 28px
+      &, a, strong
+        :display inline-block
+        :height 28px
+  .active
+    :margin 0
+    .li_c
+      &, a, strong
+        :background = "transparent url(" + !img + "/siteMenu.gif) no-repeat right 0"
+      a, strong
+        :background-position left -28px
+        :color #fff
+        :padding 0 16px
+        :text-decoration none
+      strong
+        :cursor default
+
+.newsMenu
+  :margin-left -9px
+  +fontTahoma
+  :font-size 11px
+  li
+    :margin 0 9px
+    .li_c
+      :line-height 21px
+      &, a, strong
+        :display inline-block
+        :height 21px
+  .active
+    :margin 0
+    .li_c
+      &, a, strong
+        :background = "transparent url(" + !img + "/newsMenu.gif) no-repeat right 0"
+      a, strong
+        :background-position left -21px
+        :color #fff
+        :padding 0 9px
+        :text-decoration none
+      strong
+        :cursor default
+
+
+.product
+  .productLogo
+    :float right
+    :margin-left 80px
+  .productName
+    :color #7d7d7d
+    +fontArial
+    :font-size 24px
+    :font-weight bold
+    :line-height 29px
+  .productAbout
+    :color #378dcf
+    +fontArial
+    :font-size 16px
+    :line-height 20px
+  .siteMenu
+    li
+      :display inline
+
+.news
+  .newsMenu
+    :float right
+    :margin-left 20px
+  dl
+    dt
+      :color #838383
+      :float left
+      +fontTahoma
+      :font-size 11px
+      :width 64px
+    dd
+      :margin-left 82px
+      :overflow hidden
+      h4
+        :color #6b6b6b
+        +fontArial
+        :font-size 18px
+        :line-height 18px
+        :margin 0
+        :font-weight normal
+.doc
+  h4
+    :color #6b6b6b
+    +fontArial
+    :font-size 18px
+    :line-height 18px
+    :margin 0
+    :font-weight normal
+
+.footer
+  +fontTahoma
+  :font-size 11px
+  :line-height 14px
+  .fColumn, .sColumn, .tColumn
+    :float left
+  .fColumn
+    :width 360px
+  .sColumn
+    :width 260px
+  .tColumn
+    :width 310px
+  .copy
+    :padding-top 1em
+    :clear both
+    :display block
