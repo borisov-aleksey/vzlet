@@ -1,0 +1,75 @@
+=fontTahoma
+  :font-family Tahoma, Geneva, sans-serif, Verdana
+=fontArial
+  :font-family Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif
+
+.txt
+  +fontTahoma
+  :font-size 12px
+  :line-height 18px
+  h3, h4, h5, h6
+    +fontArial
+    :font-weight bold
+  h3
+    :font-size 26px
+    :color #9c9c9c
+    :line-height 28px
+    :margin-bottom 28px
+  h4
+    :font-size 17px
+    :line-height 20px
+    :margin 30px 0 9px 0
+  p
+    :margin 9px 0 18px 0
+  .dash
+    :list-style-image none !important
+    :margin 18px 0 23px 55px
+
+    li
+      :margin 6px 0
+    m
+      :margin-left -1.5em
+      :position absolute
+      :font-size 16px
+    ul
+      :list-style-image none
+      :margin 11px 0 23px 25px
+      li
+        :margin 0
+  .dash > li
+    &:before
+      :margin-left -1.5em
+      :position absolute
+      :content "— "
+      :font-size 16px
+  .dot
+    :list-style-type disc
+    :margin 24px 0 23px 56px
+    :line-height 20px
+    m
+      :display none
+
+    li
+      :margin 7px 0
+  .dotted
+    :position relative
+    li
+      :zoom 1
+      :position relative
+      :border-bottom .1em dotted #000
+      :padding-right 10em
+      :padding-bottom 0
+      &.br
+        :border none
+      .value
+        :position absolute
+        :right 0
+        :bottom -.3em
+        :background #fff
+        :padding-left .5em
+      .label
+        :padding-right .5em
+        :position relative
+        :bottom -.3em
+        :left 0
+        :background #fff

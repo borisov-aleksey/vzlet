@@ -1,0 +1,30 @@
+.breadcrumbs li {
+  zoom: expression(
+    runtimeStyle.zoom = 0,
+    previousSibling &&
+    insertBefore(
+      createElement("m"), firstChild)
+  ); }
+
+.breadcrumbs m {
+  color: #9e9e9e !important
+  font-family: "Times New Roman", sans-serif;
+
+  zoom: expression(
+      runtimeStyle.zoom = 0,
+      innerText = "\a0\2192\20"
+  ); }
+
+
+.txt {}
+  .txt .dash li {
+    zoom: expression(
+      runtimeStyle.zoom = 0,
+      insertBefore(
+        createElement("m"), firstChild)
+    ); }
+  .txt .dash li m {
+    zoom: expression(
+      runtimeStyle.zoom = 0,
+      innerText = "\2014"
+    ); }
