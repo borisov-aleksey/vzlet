@@ -16,3 +16,15 @@
   ); }
 
 
+.txt {}
+  .txt .dash li {
+    zoom: expression(
+      runtimeStyle.zoom = 0,
+      insertBefore(
+        createElement("m"), firstChild)
+    ); }
+  .txt .dash li m {
+    zoom: expression(
+      runtimeStyle.zoom = 0,
+      innerText = "\2014"
+    ); }

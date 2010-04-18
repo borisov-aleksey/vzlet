@@ -3,6 +3,9 @@
 =fontArial
   :font-family Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif
 
+!img = "../images/vzlet"
+
+
 html, body
   :height 100%
   :margin 0
@@ -24,7 +27,8 @@ html, body
   :height 77px
   :margin-top -97px
 #autoFooterC, #autoFooter
-  :width 940px
+  :width 930px
+  :padding 0 15px
   :margin
     :left auto
     :right auto
@@ -52,7 +56,7 @@ h1.logo
     :display block
 
 .hMenu, .m_links_c, .hMenu ul, .hMenu ul li, .hMenu .li_c, .hMenu .li_c strong, .hMenu .li_c a
-  :background-image url(/images/vzlet/headerMenu.png)
+  :background-image = "url(" + !img + "/headerMenu.png)"
   :background-repeat no-repeat
 .hMenu
   :background-repeat repeat-x
@@ -107,13 +111,14 @@ h1.logo
   :float right
   :margin 27px 13px 0 0
   label
+    :cursor text
     :color #b7b6b6
     :position absolute
     :left 0
     :line-height 24px
     :padding 0 8px
   input
-    :background transparent url(/images/vzlet/headerSearch.png) no-repeat 0 0
+    :background = "transparent url(" + !img + "/headerSearch.png) no-repeat 0 0"
     :border none
     :float left
     :height 14px
@@ -121,7 +126,7 @@ h1.logo
     :width 141px
     :padding 5px 8px
   button
-    :background  transparent url(/images/vzlet/headerSearch.png) no-repeat -157px 0
+    :background = "transparent url(" + !img + "/headerSearch.png) no-repeat -157px 0"
     :border none
     :width 24px
     :height 24px
@@ -131,7 +136,7 @@ h1.logo
 .sMenu
   +fontTahoma
   :font-size 11px
-  :margin-left -40px
+  :margin 36px 0 36px -40px
   li
     :margin-left 40px
     :display inline
@@ -149,6 +154,12 @@ h1.logo
 .breadcrumbs
   +fontArial
   :font-size 19px
+  :margin 30px 0
+  h3
+    :display inline
+    +fontArial
+    :font-size 19px
+    :font-weight normal
   li
     :display inline
 .breadcrumbs li:first-child:before
@@ -187,7 +198,7 @@ h1.logo
   .pages
     :overflow hidden
     li, li a, li strong
-      :background transparent url(/images/vzlet/pager.png) no-repeat 0 0
+      :background = "transparent url(" + !img + "/pager.png) no-repeat 0 0"
     li
       :float left
       :margin 0 2px 0 0
@@ -218,6 +229,118 @@ h1.logo
 .content
   :padding 0 28px
 
+  .layout50
+    :width 410px
+    :float left
+  .layout_l
+    :padding-right 30px
+  .layout_r
+    :padding-left 30px
+
+  .layout70_l
+    
+  .layout30_r
+    :float right
+    :width 200px
+
+.siteMenu
+  :margin-left -12px
+  +fontTahoma
+  :font-size 12px
+  li
+    :margin 0 16px
+    .li_c
+      :line-height 28px
+      &, a, strong
+        :display inline-block
+        :height 28px
+  .active
+    :margin 0
+    .li_c
+      &, a, strong
+        :background = "transparent url(" + !img + "/siteMenu.gif) no-repeat right 0"
+      a, strong
+        :background-position left -28px
+        :color #fff
+        :padding 0 16px
+        :text-decoration none
+      strong
+        :cursor default
+
+.newsMenu
+  :margin-left -9px
+  +fontTahoma
+  :font-size 11px
+  li
+    :margin 0 9px
+    .li_c
+      :line-height 21px
+      &, a, strong
+        :display inline-block
+        :height 21px
+  .active
+    :margin 0
+    .li_c
+      &, a, strong
+        :background = "transparent url(" + !img + "/newsMenu.gif) no-repeat right 0"
+      a, strong
+        :background-position left -21px
+        :color #fff
+        :padding 0 9px
+        :text-decoration none
+      strong
+        :cursor default
+
+
+.product
+  .productLogo
+    :float right
+    :margin-left 80px
+  .productName
+    :color #7d7d7d
+    +fontArial
+    :font-size 24px
+    :font-weight bold
+    :line-height 29px
+  .productAbout
+    :color #378dcf
+    +fontArial
+    :font-size 16px
+    :line-height 20px
+  .siteMenu
+    li
+      :display inline
+
+.news
+  .newsMenu
+    :float right
+    :margin-left 20px
+  dl
+    dt
+      :color #838383
+      :float left
+      +fontTahoma
+      :font-size 11px
+      :width 64px
+    dd
+      :margin-left 82px
+      :overflow hidden
+      h4
+        :color #6b6b6b
+        +fontArial
+        :font-size 18px
+        :line-height 18px
+        :margin 0
+        :font-weight normal
+.doc
+  h4
+    :color #6b6b6b
+    +fontArial
+    :font-size 18px
+    :line-height 18px
+    :margin 0
+    :font-weight normal
+
 .footer
   +fontTahoma
   :font-size 11px
@@ -225,7 +348,7 @@ h1.logo
   .fColumn, .sColumn, .tColumn
     :float left
   .fColumn
-    :width 362px
+    :width 360px
   .sColumn
     :width 260px
   .tColumn

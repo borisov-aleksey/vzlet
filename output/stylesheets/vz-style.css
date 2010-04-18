@@ -21,7 +21,8 @@ html, body {
   margin-top: -97px; }
 
 #autoFooterC, #autoFooter {
-  width: 940px;
+  width: 930px;
+  padding: 0 15px;
   margin-left: auto;
   margin-right: auto; }
 
@@ -46,7 +47,7 @@ h1.logo {
     display: block; }
 
 .hMenu, .m_links_c, .hMenu ul, .hMenu ul li, .hMenu .li_c, .hMenu .li_c strong, .hMenu .li_c a {
-  background-image: url(/images/vzlet/headerMenu.png);
+  background-image: url(../images/vzlet/headerMenu.png);
   background-repeat: no-repeat; }
 
 .hMenu {
@@ -104,13 +105,14 @@ h1.logo {
   float: right;
   margin: 27px 13px 0 0; }
   .search label {
+    cursor: text;
     color: #b7b6b6;
     position: absolute;
     left: 0;
     line-height: 24px;
     padding: 0 8px; }
   .search input {
-    background: transparent url(/images/vzlet/headerSearch.png) no-repeat 0 0;
+    background: transparent url(../images/vzlet/headerSearch.png) no-repeat 0 0;
     border: none;
     float: left;
     height: 14px;
@@ -118,7 +120,7 @@ h1.logo {
     width: 141px;
     padding: 5px 8px; }
   .search button {
-    background: transparent url(/images/vzlet/headerSearch.png) no-repeat -157px 0;
+    background: transparent url(../images/vzlet/headerSearch.png) no-repeat -157px 0;
     border: none;
     width: 24px;
     height: 24px;
@@ -128,7 +130,7 @@ h1.logo {
 .sMenu {
   font-family: Tahoma, Geneva, sans-serif, Verdana;
   font-size: 11px;
-  margin-left: -40px; }
+  margin: 36px 0 36px -40px; }
   .sMenu li {
     margin-left: 40px;
     display: inline; }
@@ -143,7 +145,13 @@ h1.logo {
 
 .breadcrumbs {
   font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
-  font-size: 19px; }
+  font-size: 19px;
+  margin: 30px 0; }
+  .breadcrumbs h3 {
+    display: inline;
+    font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+    font-size: 19px;
+    font-weight: normal; }
   .breadcrumbs li {
     display: inline; }
 
@@ -183,7 +191,7 @@ h1.logo {
   .pagerBox .pages {
     overflow: hidden; }
     .pagerBox .pages li, .pagerBox .pages li a, .pagerBox .pages li strong {
-      background: transparent url(/images/vzlet/pager.png) no-repeat 0 0; }
+      background: transparent url(../images/vzlet/pager.png) no-repeat 0 0; }
     .pagerBox .pages li {
       float: left;
       margin: 0 2px 0 0;
@@ -213,6 +221,107 @@ h1.logo {
 
 .content {
   padding: 0 28px; }
+  .content .layout50 {
+    width: 410px;
+    float: left; }
+  .content .layout_l {
+    padding-right: 30px; }
+  .content .layout_r {
+    padding-left: 30px; }
+  .content .layout30_r {
+    float: right;
+    width: 200px; }
+
+.siteMenu {
+  margin-left: -12px;
+  font-family: Tahoma, Geneva, sans-serif, Verdana;
+  font-size: 12px; }
+  .siteMenu li {
+    margin: 0 16px; }
+    .siteMenu li .li_c {
+      line-height: 28px; }
+      .siteMenu li .li_c, .siteMenu li .li_c a, .siteMenu li .li_c strong {
+        display: inline-block;
+        height: 28px; }
+  .siteMenu .active {
+    margin: 0; }
+    .siteMenu .active .li_c, .siteMenu .active .li_c a, .siteMenu .active .li_c strong {
+      background: transparent url(../images/vzlet/siteMenu.gif) no-repeat right 0; }
+    .siteMenu .active .li_c a, .siteMenu .active .li_c strong {
+      background-position: left -28px;
+      color: #fff;
+      padding: 0 16px;
+      text-decoration: none; }
+    .siteMenu .active .li_c strong {
+      cursor: default; }
+
+.newsMenu {
+  margin-left: -9px;
+  font-family: Tahoma, Geneva, sans-serif, Verdana;
+  font-size: 11px; }
+  .newsMenu li {
+    margin: 0 9px; }
+    .newsMenu li .li_c {
+      line-height: 21px; }
+      .newsMenu li .li_c, .newsMenu li .li_c a, .newsMenu li .li_c strong {
+        display: inline-block;
+        height: 21px; }
+  .newsMenu .active {
+    margin: 0; }
+    .newsMenu .active .li_c, .newsMenu .active .li_c a, .newsMenu .active .li_c strong {
+      background: transparent url(../images/vzlet/newsMenu.gif) no-repeat right 0; }
+    .newsMenu .active .li_c a, .newsMenu .active .li_c strong {
+      background-position: left -21px;
+      color: #fff;
+      padding: 0 9px;
+      text-decoration: none; }
+    .newsMenu .active .li_c strong {
+      cursor: default; }
+
+.product .productLogo {
+  float: right;
+  margin-left: 80px; }
+.product .productName {
+  color: #7d7d7d;
+  font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 29px; }
+.product .productAbout {
+  color: #378dcf;
+  font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+  font-size: 16px;
+  line-height: 20px; }
+.product .siteMenu li {
+  display: inline; }
+
+.news .newsMenu {
+  float: right;
+  margin-left: 20px; }
+.news dl dt {
+  color: #838383;
+  float: left;
+  font-family: Tahoma, Geneva, sans-serif, Verdana;
+  font-size: 11px;
+  width: 64px; }
+.news dl dd {
+  margin-left: 82px;
+  overflow: hidden; }
+  .news dl dd h4 {
+    color: #6b6b6b;
+    font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0;
+    font-weight: normal; }
+
+.doc h4 {
+  color: #6b6b6b;
+  font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  margin: 0;
+  font-weight: normal; }
 
 .footer {
   font-family: Tahoma, Geneva, sans-serif, Verdana;
@@ -221,7 +330,7 @@ h1.logo {
   .footer .fColumn, .footer .sColumn, .footer .tColumn {
     float: left; }
   .footer .fColumn {
-    width: 362px; }
+    width: 360px; }
   .footer .sColumn {
     width: 260px; }
   .footer .tColumn {

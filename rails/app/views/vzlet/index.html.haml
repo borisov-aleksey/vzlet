@@ -1,7 +1,8 @@
 !!!
-%html
+%html{ "xmlns" => "http://www.w3.org/1999/xhtml", "xml:lang" => "ru", "lang" =>"ru" }
   %head
     %title Взлет
+    %meta{ "http-equiv" => "Content-Type", "content" => "text/html; charset=utf-8" }/
     =stylesheet_link_tag "reset", "vz-style", "corner", "vz-txt"
     /[if lt IE 8]
       =stylesheet_link_tag "vz-ie6"
@@ -21,77 +22,31 @@
           .m_links_c
             %ul
               %li
-                %span.li_c
-                  %a{ "href" => "#" }
+                %span.li_c<>
+                  %a{ "href" => "#" }<>
                     Главная
               %li.active
-                %span.li_c
-                  %a{ "href" => "#" }
+                %span.li_c<>
+                  %a{ "href" => "#" }<>
                     Продукция
               %li.hover
-                %span.li_c
-                  %a{ "href" => "#" }
+                %span.li_c<>
+                  %a{ "href" => "#" }<>
                     Поддержка
               %li
-                %span.li_c
-                  %a{ "href" => "#" }
+                %span.li_c<>
+                  %a{ "href" => "#" }<>
                     Компания
               %li.active
-                %span.li_c
-                  %strong
+                %span.li_c<>
+                  %strong<>
                     Контактная информация
       .content
-        %ul.sMenu
-          %li
-            %a{ "href" => "#"}<>
-              Головной офис
-          %li.active
-            %a{ "href" => "#"}<>
-              Региональные представительства
-        %ul.breadcrumbs
-          %li<>
-            %a{ "href" => "#" }<>
-              Услуги
-          %li<>
-            %a{ "href" => "#" }<>
-              Проверка и ремонт
-        Hello world
-        .pagerBox
-          %ul.arrows
-            %li.back
-              %span<>
-                ← ctrl
-              %strong<>
-                назад
-            %li.next
-              %a{ "title" => "Вперед", "href" => "#" }<>
-                вперед
-              %span<>
-                ctrl →
-          %ul.pages
-            %li.active
-              %strong<>
-                1
-            %li
-              %a{ "href" => "#" }<> 2
-            %li
-              %a{ "href" => "#" }<> 3
-            %li.hover
-              %a{ "href" => "#" }<> 4
-            %li
-              %a{ "href" => "#" }<> 5
-            %li
-              %a{ "href" => "#" }<> 6
-            %li.disable
-              %span<>
-                …
-            %li
-              %a{ "href" => "#" }<> 495
-            %li
-              %a{ "href" => "#" }<> 496
-            %li.next
-              %a{ "title" => "Следующая страница", "href" => "#" }<>
-                Следующая
+
+        /* = render :partial => "news"
+        /* = render :partial => "device"
+        = render :partial => "support"
+
 
       #autoFooterMargin
     .footer#autoFooter
