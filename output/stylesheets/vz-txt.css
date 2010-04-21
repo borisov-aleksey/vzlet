@@ -44,7 +44,8 @@
     .txt .dot li {
       margin: 7px 0; }
   .txt .dotted {
-    position: relative; }
+    position: relative;
+    margin-bottom: 36px; }
     .txt .dotted li {
       zoom: 1;
       position: relative;
@@ -52,7 +53,8 @@
       padding-right: 10em;
       padding-bottom: 0; }
       .txt .dotted li.br {
-        border: none; }
+        border: none;
+        height: 24px; }
       .txt .dotted li .value {
         position: absolute;
         right: 0;

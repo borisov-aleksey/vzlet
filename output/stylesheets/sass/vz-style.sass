@@ -227,7 +227,7 @@ h1.logo
           :background-position left -26px
 
 .content
-  :padding 0 28px
+  :padding 0 28px 50px 28px
 
   .layout50
     :width 410px
@@ -244,7 +244,7 @@ h1.logo
     :width 200px
 
 .siteMenu
-  :margin-left -12px
+  :margin-left -16px
   +fontTahoma
   :font-size 12px
   li
@@ -290,12 +290,27 @@ h1.logo
         :text-decoration none
       strong
         :cursor default
+.imagesList
+  :overflow hidden
+  :zoom 1
+  li
+    :float left
+    :margin-right 10px
 
 
 .product
   .productLogo
     :float right
     :margin-left 80px
+    :margin-bottom 20px
+    :overflow hidden
+    :zoom 1
+    .big
+      :margin-bottom 20px
+      :display block
+    .small
+      :float right
+      :margin-right 10px
   .productName
     :color #7d7d7d
     +fontArial
@@ -308,6 +323,8 @@ h1.logo
     :font-size 16px
     :line-height 20px
   .siteMenu
+    :margin-top 20px
+    :margin-bottom 20px
     li
       :display inline
 
@@ -322,8 +339,10 @@ h1.logo
       +fontTahoma
       :font-size 11px
       :width 64px
+      :text-align right
     dd
       :margin-left 82px
+      :margin-right 200px
       :overflow hidden
       h4
         :color #6b6b6b
@@ -332,6 +351,8 @@ h1.logo
         :line-height 18px
         :margin 0
         :font-weight normal
+  .pagerBox
+    :margin-left 82px
 .doc
   h4
     :color #6b6b6b
