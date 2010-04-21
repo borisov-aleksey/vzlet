@@ -228,6 +228,8 @@ h1.logo {
     padding-right: 30px; }
   .content .layout_r {
     padding-left: 30px; }
+  .content .layout70_l {
+    margin-right: 220px; }
   .content .layout30_r {
     float: right;
     width: 200px; }
@@ -326,7 +328,6 @@ h1.logo {
   text-align: right; }
 .news dl dd {
   margin-left: 82px;
-  margin-right: 200px;
   overflow: hidden; }
   .news dl dd h4 {
     color: #6b6b6b;
