@@ -228,7 +228,14 @@ h1.logo {
     padding-right: 30px; }
   .content .layout_r {
     padding-left: 30px; }
+  .content .layout70_l {
+    margin-right: 220px; }
   .content .layout30_r {
+    float: right;
+    width: 200px; }
+  .content .layout70_ll {
+    margin-right: 220px; }
+  .content .layout30_rr {
     float: right;
     width: 200px; }
 
@@ -290,10 +297,12 @@ h1.logo {
   margin-left: 80px;
   margin-bottom: 20px;
   overflow: hidden;
+  margin-right: -10px;
   zoom: 1; }
   .product .productLogo .big {
     margin-bottom: 20px;
-    display: block; }
+    display: block;
+    margin-right: 10px; }
   .product .productLogo .small {
     float: right;
     margin-right: 10px; }
@@ -325,9 +334,7 @@ h1.logo {
   width: 64px;
   text-align: right; }
 .news dl dd {
-  margin-left: 82px;
-  margin-right: 200px;
-  overflow: hidden; }
+  margin-left: 82px; }
   .news dl dd h4 {
     color: #6b6b6b;
     font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
@@ -337,6 +344,14 @@ h1.logo {
     font-weight: normal; }
 .news .pagerBox {
   margin-left: 82px; }
+
+.mapLink {
+  background: transparent url(../images/vzlet/mapSmall.gif) no-repeat 0 0;
+  height: 42px;
+  line-height: 42px;
+  padding-left: 87px;
+  margin: 30px 0 30px 20px;
+  font-size: 14px; }
 
 .doc h4 {
   color: #6b6b6b;

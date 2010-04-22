@@ -5,7 +5,19 @@
     %h3
       Изменение расхода житкостей
 .product.txt
-  %img.productLogo{ "src" => "/images/vzlet/data/device.jpg", "width" => "297", "height" => "254", "alt" => "" }
+  .productLogo
+
+    %a{ "href" => "#" }
+      %img.big{ "src" => "/images/vzlet/data/device.jpg", "width" => "300", "height" => "254", "alt" => "" }
+    %a{ "href" => "#" }
+      %img.small{ "src" => "/images/vzlet/data/news.jpg", "width" => "67", "height" => "50", "alt" => "" }
+    %a{ "href" => "#" }
+      %img.small{ "src" => "/images/vzlet/data/news.jpg", "width" => "67", "height" => "50", "alt" => "" }
+    %a{ "href" => "#" }
+      %img.small{ "src" => "/images/vzlet/data/news.jpg", "width" => "67", "height" => "50", "alt" => "" }
+    %a{ "href" => "#" }
+      %img.small{ "src" => "/images/vzlet/data/news.jpg", "width" => "67", "height" => "50", "alt" => "" }
+
   %h4.productName
     РАСХОДОМЕР-СЧЕТЧИК
     %br/
@@ -126,40 +138,3 @@
       термопреобразователи сспротивления ВЗЛЕТ ТПС;
     %li
       преобразователи давления СДВ производства ЗАО "НПК ВИП".
-
-.pagerBox
-  %ul.arrows
-    %li.back
-      %span<>
-        ← ctrl
-      %strong<>
-        назад
-    %li.next
-      %a{ "title" => "Вперед", "href" => "#" }<>
-        вперед
-      %span<>
-        ctrl →
-  %ul.pages
-    %li.active
-      %strong<>
-        1
-    %li
-      %a{ "href" => "#" }<> 2
-    %li
-      %a{ "href" => "#" }<> 3
-    %li.hover
-      %a{ "href" => "#" }<> 4
-    %li
-      %a{ "href" => "#" }<> 5
-    %li
-      %a{ "href" => "#" }<> 6
-    %li.disable
-      %span<>
-        …
-    %li
-      %a{ "href" => "#" }<> 495
-    %li
-      %a{ "href" => "#" }<> 496
-    %li.next
-      %a{ "title" => "Следующая страница", "href" => "#" }<>
-        Следующая
