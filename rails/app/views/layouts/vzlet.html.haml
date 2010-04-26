@@ -4,6 +4,7 @@
     %title Взлет
     %meta{ "http-equiv" => "Content-Type", "content" => "text/html; charset=utf-8" }/
     =stylesheet_link_tag "reset", "vz-style", "corner", "vz-txt"
+    =javascript_tag "jquery-1.4.2.min"
     /[if lt IE 8]
       =stylesheet_link_tag "vz-ie6"
   %body
@@ -15,32 +16,26 @@
         %form.search
           %label{ "for" => "search"} Поиск по сайту
           %input{ "type" => "text", "id" => "search" }
-          %button{ "type" => "submit" }
-            Найти
+          %button{ "type" => "submit" } Найти
         .wrp
         .hMenu
           .m_links_c
             %ul
               %li
                 %span.li_c<>
-                  %a{ "href" => "#" }<>
-                    Главная
+                  %a{ "href" => "#" }<> Главная
               %li.active
                 %span.li_c<>
-                  %a{ "href" => "#" }<>
-                    Продукция
+                  %a{ "href" => "#" }<> Продукция
               %li.hover
                 %span.li_c<>
-                  %a{ "href" => "#" }<>
-                    Поддержка
+                  %a{ "href" => "#" }<> Поддержка
               %li
                 %span.li_c<>
-                  %a{ "href" => "#" }<>
-                    Компания
+                  %a{ "href" => "#" }<> Компания
               %li.active
                 %span.li_c<>
-                  %strong<>
-                    Контактная информация
+                  %strong<> Контактная информация
       .content
         =yield
       #autoFooterMargin
