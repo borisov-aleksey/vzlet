@@ -227,7 +227,7 @@ h1.logo
           :background-position left -26px
 
 .content
-  :padding 0 28px
+  :padding 0 28px 50px 28px
 
   .layout50
     :width 410px
@@ -238,13 +238,20 @@ h1.logo
     :padding-left 30px
 
   .layout70_l
-    
+    :margin-right 220px
   .layout30_r
     :float right
     :width 200px
 
-.siteMenu
-  :margin-left -12px
+
+  .layout70_ll
+    :margin-right 220px
+  .layout30_rr
+    :float right
+    :width 200px
+
+.siteMenu, .rightMenu
+  :margin-left -16px
   +fontTahoma
   :font-size 12px
   li
@@ -254,6 +261,7 @@ h1.logo
       &, a, strong
         :display inline-block
         :height 28px
+        :font-weight normal
   .active
     :margin 0
     .li_c
@@ -266,6 +274,9 @@ h1.logo
         :text-decoration none
       strong
         :cursor default
+.rightMenu
+  li, a, strong, span
+    :display block !important
 
 .newsMenu
   :margin-left -9px
@@ -290,12 +301,61 @@ h1.logo
         :text-decoration none
       strong
         :cursor default
+.imagesList
+  :overflow hidden
+  :zoom 1
+  li
+    :float left
+    :margin-right 10px
+.dowloadLD
+  +fontTahoma
+  :font-size 12px
+  :line-height 16px
+  :margin 9px 0 18px
+  .info
+    :color #969696
+    :display block
+  .about
+    :line-height 18px
+    :margin-left 51px
+    :margin-bottom 0
+  .ico
+    :margin 0 15px 0 7px
+    :display block
+    :float left
+    :height 0
+    :padding-top 33px
+    :width 29px
+    :overflow hidden
+    :background = "transparent url(" + !img + "/docType.png) no-repeat right 0"
 
+
+.DocTypeDoc .ico
+  :background-position 0 -132px
+.DocTypeJpg .ico
+  :background-position 0 -99px
+.DocTypeXls .ico
+  :background-position 0 -33px
+.DocTypeExe .ico
+  :background-position 0 -66px
+.DocTypePdf .ico
+  :background-position 0 0
 
 .product
   .productLogo
     :float right
     :margin-left 80px
+    :margin-bottom 20px
+    :overflow hidden
+    :margin-right -10px
+    :zoom 1
+    .big
+      :margin-bottom 20px
+      :display block
+      :margin-right 10px
+    .small
+      :float right
+      :margin-right 10px
   .productName
     :color #7d7d7d
     +fontArial
@@ -308,6 +368,8 @@ h1.logo
     :font-size 16px
     :line-height 20px
   .siteMenu
+    :margin-top 20px
+    :margin-bottom 20px
     li
       :display inline
 
@@ -322,9 +384,9 @@ h1.logo
       +fontTahoma
       :font-size 11px
       :width 64px
+      :text-align right
     dd
       :margin-left 82px
-      :overflow hidden
       h4
         :color #6b6b6b
         +fontArial
@@ -332,14 +394,30 @@ h1.logo
         :line-height 18px
         :margin 0
         :font-weight normal
+  .pagerBox
+    :margin-left 82px
+.mapLink
+  :background = "transparent url(" + !img + "/mapSmall.gif) no-repeat 0 0"
+  :height 42px
+  :line-height 42px
+  :padding-left 87px
+  :margin 30px 0 30px 20px
+  :font-size 14px
 .doc
   h4
     :color #6b6b6b
     +fontArial
     :font-size 18px
     :line-height 18px
-    :margin 0
+    :margin-top 0 !important
     :font-weight normal
+  .docList
+    :margin 19px 0 44px 0
+.publications
+  .newsMenu
+    :float right
+
+
 
 .footer
   +fontTahoma

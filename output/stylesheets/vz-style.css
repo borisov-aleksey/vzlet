@@ -220,7 +220,7 @@ h1.logo {
           background-position: left -26px; }
 
 .content {
-  padding: 0 28px; }
+  padding: 0 28px 50px 28px; }
   .content .layout50 {
     width: 410px;
     float: left; }
@@ -228,32 +228,43 @@ h1.logo {
     padding-right: 30px; }
   .content .layout_r {
     padding-left: 30px; }
+  .content .layout70_l {
+    margin-right: 220px; }
   .content .layout30_r {
     float: right;
     width: 200px; }
+  .content .layout70_ll {
+    margin-right: 220px; }
+  .content .layout30_rr {
+    float: right;
+    width: 200px; }
 
-.siteMenu {
-  margin-left: -12px;
+.siteMenu, .rightMenu {
+  margin-left: -16px;
   font-family: Tahoma, Geneva, sans-serif, Verdana;
   font-size: 12px; }
-  .siteMenu li {
+  .siteMenu li, .rightMenu li {
     margin: 0 16px; }
-    .siteMenu li .li_c {
+    .siteMenu li .li_c, .rightMenu li .li_c {
       line-height: 28px; }
-      .siteMenu li .li_c, .siteMenu li .li_c a, .siteMenu li .li_c strong {
+      .siteMenu li .li_c, .siteMenu li .li_c a, .siteMenu li .li_c strong, .rightMenu li .li_c, .rightMenu li .li_c a, .rightMenu li .li_c strong {
         display: inline-block;
-        height: 28px; }
-  .siteMenu .active {
+        height: 28px;
+        font-weight: normal; }
+  .siteMenu .active, .rightMenu .active {
     margin: 0; }
-    .siteMenu .active .li_c, .siteMenu .active .li_c a, .siteMenu .active .li_c strong {
+    .siteMenu .active .li_c, .siteMenu .active .li_c a, .siteMenu .active .li_c strong, .rightMenu .active .li_c, .rightMenu .active .li_c a, .rightMenu .active .li_c strong {
       background: transparent url(../images/vzlet/siteMenu.gif) no-repeat right 0; }
-    .siteMenu .active .li_c a, .siteMenu .active .li_c strong {
+    .siteMenu .active .li_c a, .siteMenu .active .li_c strong, .rightMenu .active .li_c a, .rightMenu .active .li_c strong {
       background-position: left -28px;
       color: #fff;
       padding: 0 16px;
       text-decoration: none; }
-    .siteMenu .active .li_c strong {
+    .siteMenu .active .li_c strong, .rightMenu .active .li_c strong {
       cursor: default; }
+
+.rightMenu li, .rightMenu a, .rightMenu strong, .rightMenu span {
+  display: block !important; }
 
 .newsMenu {
   margin-left: -9px;
@@ -278,9 +289,64 @@ h1.logo {
     .newsMenu .active .li_c strong {
       cursor: default; }
 
+.imagesList {
+  overflow: hidden;
+  zoom: 1; }
+  .imagesList li {
+    float: left;
+    margin-right: 10px; }
+
+.dowloadLD {
+  font-family: Tahoma, Geneva, sans-serif, Verdana;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 9px 0 18px; }
+  .dowloadLD .info {
+    color: #969696;
+    display: block; }
+  .dowloadLD .about {
+    line-height: 18px;
+    margin-left: 51px;
+    margin-bottom: 0; }
+  .dowloadLD .ico {
+    margin: 0 15px 0 7px;
+    display: block;
+    float: left;
+    height: 0;
+    padding-top: 33px;
+    width: 29px;
+    overflow: hidden;
+    background: transparent url(../images/vzlet/docType.png) no-repeat right 0; }
+
+.DocTypeDoc .ico {
+  background-position: 0 -132px; }
+
+.DocTypeJpg .ico {
+  background-position: 0 -99px; }
+
+.DocTypeXls .ico {
+  background-position: 0 -33px; }
+
+.DocTypeExe .ico {
+  background-position: 0 -66px; }
+
+.DocTypePdf .ico {
+  background-position: 0 0; }
+
 .product .productLogo {
   float: right;
-  margin-left: 80px; }
+  margin-left: 80px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  margin-right: -10px;
+  zoom: 1; }
+  .product .productLogo .big {
+    margin-bottom: 20px;
+    display: block;
+    margin-right: 10px; }
+  .product .productLogo .small {
+    float: right;
+    margin-right: 10px; }
 .product .productName {
   color: #7d7d7d;
   font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
@@ -292,8 +358,11 @@ h1.logo {
   font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
   font-size: 16px;
   line-height: 20px; }
-.product .siteMenu li {
-  display: inline; }
+.product .siteMenu {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+  .product .siteMenu li {
+    display: inline; }
 
 .news .newsMenu {
   float: right;
@@ -303,10 +372,10 @@ h1.logo {
   float: left;
   font-family: Tahoma, Geneva, sans-serif, Verdana;
   font-size: 11px;
-  width: 64px; }
+  width: 64px;
+  text-align: right; }
 .news dl dd {
-  margin-left: 82px;
-  overflow: hidden; }
+  margin-left: 82px; }
   .news dl dd h4 {
     color: #6b6b6b;
     font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
@@ -314,14 +383,29 @@ h1.logo {
     line-height: 18px;
     margin: 0;
     font-weight: normal; }
+.news .pagerBox {
+  margin-left: 82px; }
+
+.mapLink {
+  background: transparent url(../images/vzlet/mapSmall.gif) no-repeat 0 0;
+  height: 42px;
+  line-height: 42px;
+  padding-left: 87px;
+  margin: 30px 0 30px 20px;
+  font-size: 14px; }
 
 .doc h4 {
   color: #6b6b6b;
   font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
   font-size: 18px;
   line-height: 18px;
-  margin: 0;
+  margin-top: 0 !important;
   font-weight: normal; }
+.doc .docList {
+  margin: 19px 0 44px 0; }
+
+.publications .newsMenu {
+  float: right; }
 
 .footer {
   font-family: Tahoma, Geneva, sans-serif, Verdana;

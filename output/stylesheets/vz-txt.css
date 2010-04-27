@@ -11,9 +11,10 @@
     line-height: 28px;
     margin-bottom: 28px; }
   .txt h4 {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 20px;
-    margin: 30px 0 9px 0; }
+    margin: 30px 0 9px 0;
+    font-weight: normal; }
   .txt p {
     margin: 9px 0 18px 0; }
   .txt .dash {
@@ -44,7 +45,8 @@
     .txt .dot li {
       margin: 7px 0; }
   .txt .dotted {
-    position: relative; }
+    position: relative;
+    margin-bottom: 36px; }
     .txt .dotted li {
       zoom: 1;
       position: relative;
@@ -52,7 +54,8 @@
       padding-right: 10em;
       padding-bottom: 0; }
       .txt .dotted li.br {
-        border: none; }
+        border: none;
+        height: 24px; }
       .txt .dotted li .value {
         position: absolute;
         right: 0;
