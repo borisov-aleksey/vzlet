@@ -239,28 +239,32 @@ h1.logo {
     float: right;
     width: 200px; }
 
-.siteMenu {
+.siteMenu, .rightMenu {
   margin-left: -16px;
   font-family: Tahoma, Geneva, sans-serif, Verdana;
   font-size: 12px; }
-  .siteMenu li {
+  .siteMenu li, .rightMenu li {
     margin: 0 16px; }
-    .siteMenu li .li_c {
+    .siteMenu li .li_c, .rightMenu li .li_c {
       line-height: 28px; }
-      .siteMenu li .li_c, .siteMenu li .li_c a, .siteMenu li .li_c strong {
+      .siteMenu li .li_c, .siteMenu li .li_c a, .siteMenu li .li_c strong, .rightMenu li .li_c, .rightMenu li .li_c a, .rightMenu li .li_c strong {
         display: inline-block;
-        height: 28px; }
-  .siteMenu .active {
+        height: 28px;
+        font-weight: normal; }
+  .siteMenu .active, .rightMenu .active {
     margin: 0; }
-    .siteMenu .active .li_c, .siteMenu .active .li_c a, .siteMenu .active .li_c strong {
+    .siteMenu .active .li_c, .siteMenu .active .li_c a, .siteMenu .active .li_c strong, .rightMenu .active .li_c, .rightMenu .active .li_c a, .rightMenu .active .li_c strong {
       background: transparent url(../images/vzlet/siteMenu.gif) no-repeat right 0; }
-    .siteMenu .active .li_c a, .siteMenu .active .li_c strong {
+    .siteMenu .active .li_c a, .siteMenu .active .li_c strong, .rightMenu .active .li_c a, .rightMenu .active .li_c strong {
       background-position: left -28px;
       color: #fff;
       padding: 0 16px;
       text-decoration: none; }
-    .siteMenu .active .li_c strong {
+    .siteMenu .active .li_c strong, .rightMenu .active .li_c strong {
       cursor: default; }
+
+.rightMenu li, .rightMenu a, .rightMenu strong, .rightMenu span {
+  display: block !important; }
 
 .newsMenu {
   margin-left: -9px;
@@ -291,6 +295,43 @@ h1.logo {
   .imagesList li {
     float: left;
     margin-right: 10px; }
+
+.dowloadLD {
+  font-family: Tahoma, Geneva, sans-serif, Verdana;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 9px 0 18px; }
+  .dowloadLD .info {
+    color: #969696;
+    display: block; }
+  .dowloadLD .about {
+    line-height: 18px;
+    margin-left: 51px;
+    margin-bottom: 0; }
+  .dowloadLD .ico {
+    margin: 0 15px 0 7px;
+    display: block;
+    float: left;
+    height: 0;
+    padding-top: 33px;
+    width: 29px;
+    overflow: hidden;
+    background: transparent url(../images/vzlet/docType.png) no-repeat right 0; }
+
+.DocTypeDoc .ico {
+  background-position: 0 -132px; }
+
+.DocTypeJpg .ico {
+  background-position: 0 -99px; }
+
+.DocTypeXls .ico {
+  background-position: 0 -33px; }
+
+.DocTypeExe .ico {
+  background-position: 0 -66px; }
+
+.DocTypePdf .ico {
+  background-position: 0 0; }
 
 .product .productLogo {
   float: right;
@@ -358,8 +399,13 @@ h1.logo {
   font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
   font-size: 18px;
   line-height: 18px;
-  margin: 0;
+  margin-top: 0 !important;
   font-weight: normal; }
+.doc .docList {
+  margin: 19px 0 44px 0; }
+
+.publications .newsMenu {
+  float: right; }
 
 .footer {
   font-family: Tahoma, Geneva, sans-serif, Verdana;
