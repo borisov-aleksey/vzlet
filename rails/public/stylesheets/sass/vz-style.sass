@@ -129,9 +129,12 @@ h1.logo
     :background = "transparent url(" + !img + "/headerSearch.png) no-repeat -157px 0"
     :border none
     :width 24px
-    :height 24px
+    :height 0
     :padding 24px 0 0 0
     :overflow hidden
+    :display block
+    :float left
+    :cursor pointer
 
 .sMenu
   +fontTahoma
@@ -417,7 +420,54 @@ h1.logo
   .newsMenu
     :float right
 
+.department
+  .map
+    :float right
+    :width 430px
+    :border-left 1px dashed #7d7d7d
+  .about
+    :margin-right 455px
 
+.catalogue
+  .dowloadLD
+    :float right
+  h4
+    +fontArial
+    :font-size 18px
+    :line-height 18px
+    :color #909090
+    :border-bottom 1px solid #d9d9d9
+    :margin-bottom 0.7em
+    span
+      :position relative
+      :top 0.7em
+      :background-color #fff
+      :padding-right 10px
+  .products
+    :margin -20px 0 0 -20px
+    li
+      :width 164px
+      :margin 20px 0 0 20px
+      :float left
+      :text-align center
+      +fontTahoma
+      :font-size 11px
+      .about
+        :display block
+  .fColumn, .sColumn, .tColumn
+    :float left
+    :width 268px
+    dt
+      +fontArial
+      :font-size 19px
+      :line-height 23px
+      :margin-top 33px
+    p
+      :margin-bottom 0
+  .fColumn, .sColumn
+    :padding-right 20px
+  .sColumn, .tColumn
+    :padding-left 20px
 
 .footer
   +fontTahoma
