@@ -1,0 +1,185 @@
+# Logfile created on Tue May 04 13:36:35 +0400 2010
+
+Processing VzletController#index (for 127.0.0.1 at 2010-05-04 13:37:55) [GET]
+Rendering template within layouts/vzlet
+Rendering vzlet/index
+Completed in 21ms (View: 17, DB: 0) | 200 OK [http://127.0.0.1/vzlet]
+
+
+Processing VzletController#index (for 127.0.0.1 at 2010-05-04 13:37:55) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/corner.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:143:in `call'
+    /usr/lib/ruby/1.8/rack/adapter/rails.rb:75:in `call'
+    /usr/lib/ruby/1.8/thin/connection.rb:76:in `pre_process'
+    /usr/lib/ruby/1.8/thin/connection.rb:74:in `catch'
+    /usr/lib/ruby/1.8/thin/connection.rb:74:in `pre_process'
+    /usr/lib/ruby/1.8/thin/connection.rb:57:in `process'
+    /usr/lib/ruby/1.8/thin/connection.rb:42:in `receive_data'
+    /usr/lib/ruby/1.8/eventmachine.rb:240:in `run_machine'
+    /usr/lib/ruby/1.8/eventmachine.rb:240:in `run'
+    /usr/lib/ruby/1.8/thin/backends/base.rb:57:in `start'
+    /usr/lib/ruby/1.8/thin/server.rb:156:in `start'
+    /usr/lib/ruby/1.8/thin/controllers/controller.rb:80:in `start'
+    /usr/lib/ruby/1.8/thin/runner.rb:174:in `send'
+    /usr/lib/ruby/1.8/thin/runner.rb:174:in `run_command'
+    /usr/lib/ruby/1.8/thin/runner.rb:140:in `run!'
+    /usr/bin/thin:6
+
+Rendering /home/aleksey/work/vzlet/rails/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing VzletController#news (for 127.0.0.1 at 2010-05-04 13:37:58) [GET]
+Rendering template within layouts/vzlet
+Rendering vzlet/news
+Completed in 59ms (View: 56, DB: 0) | 200 OK [http://127.0.0.1/vzlet/news]
+
+
+Processing VzletController#index (for 127.0.0.1 at 2010-05-04 13:37:58) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/corner.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:143:in `call'
+    /usr/lib/ruby/1.8/rack/adapter/rails.rb:75:in `call'
+    /usr/lib/ruby/1.8/thin/connection.rb:76:in `pre_process'
+    /usr/lib/ruby/1.8/thin/connection.rb:74:in `catch'
+    /usr/lib/ruby/1.8/thin/connection.rb:74:in `pre_process'
+    /usr/lib/ruby/1.8/thin/connection.rb:57:in `process'
+    /usr/lib/ruby/1.8/thin/connection.rb:42:in `receive_data'
+    /usr/lib/ruby/1.8/eventmachine.rb:240:in `run_machine'
+    /usr/lib/ruby/1.8/eventmachine.rb:240:in `run'
+    /usr/lib/ruby/1.8/thin/backends/base.rb:57:in `start'
+    /usr/lib/ruby/1.8/thin/server.rb:156:in `start'
+    /usr/lib/ruby/1.8/thin/controllers/controller.rb:80:in `start'
+    /usr/lib/ruby/1.8/thin/runner.rb:174:in `send'
+    /usr/lib/ruby/1.8/thin/runner.rb:174:in `run_command'
+    /usr/lib/ruby/1.8/thin/runner.rb:140:in `run!'
+    /usr/bin/thin:6
+
+Rendering /home/aleksey/work/vzlet/rails/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing VzletController#catalogue (for 127.0.0.1 at 2010-05-04 13:38:28) [GET]
+Rendering template within layouts/vzlet
+Rendering vzlet/catalogue
+Completed in 62ms (View: 24, DB: 0) | 200 OK [http://127.0.0.1/vzlet/catalogue]
+
+
+Processing VzletController#index (for 127.0.0.1 at 2010-05-04 13:38:28) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/corner.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:143:in `call'
+    /usr/lib/ruby/1.8/rack/adapter/rails.rb:75:in `call'
+    /usr/lib/ruby/1.8/thin/connection.rb:76:in `pre_process'
+    /usr/lib/ruby/1.8/thin/connection.rb:74:in `catch'
+    /usr/lib/ruby/1.8/thin/connection.rb:74:in `pre_process'
+    /usr/lib/ruby/1.8/thin/connection.rb:57:in `process'
+    /usr/lib/ruby/1.8/thin/connection.rb:42:in `receive_data'
+    /usr/lib/ruby/1.8/eventmachine.rb:240:in `run_machine'
+    /usr/lib/ruby/1.8/eventmachine.rb:240:in `run'
+    /usr/lib/ruby/1.8/thin/backends/base.rb:57:in `start'
+    /usr/lib/ruby/1.8/thin/server.rb:156:in `start'
+    /usr/lib/ruby/1.8/thin/controllers/controller.rb:80:in `start'
+    /usr/lib/ruby/1.8/thin/runner.rb:174:in `send'
+    /usr/lib/ruby/1.8/thin/runner.rb:174:in `run_command'
+    /usr/lib/ruby/1.8/thin/runner.rb:140:in `run!'
+    /usr/bin/thin:6
+
+Rendering /home/aleksey/work/vzlet/rails/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing VzletController#map (for 127.0.0.1 at 2010-05-04 13:39:02) [GET]
+Rendering template within layouts/vzlet
+Rendering vzlet/map
+Completed in 35ms (View: 32, DB: 0) | 200 OK [http://127.0.0.1/vzlet/map]
+
+
+Processing VzletController#index (for 127.0.0.1 at 2010-05-04 13:39:03) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/corner.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:143:in `call'
+    /usr/lib/ruby/1.8/rack/adapter/rails.rb:75:in `call'
+    /usr/lib/ruby/1.8/thin/connection.rb:76:in `pre_process'
+    /usr/lib/ruby/1.8/thin/connection.rb:74:in `catch'
+    /usr/lib/ruby/1.8/thin/connection.rb:74:in `pre_process'
+    /usr/lib/ruby/1.8/thin/connection.rb:57:in `process'
+    /usr/lib/ruby/1.8/thin/connection.rb:42:in `receive_data'
+    /usr/lib/ruby/1.8/eventmachine.rb:240:in `run_machine'
+    /usr/lib/ruby/1.8/eventmachine.rb:240:in `run'
+    /usr/lib/ruby/1.8/thin/backends/base.rb:57:in `start'
+    /usr/lib/ruby/1.8/thin/server.rb:156:in `start'
+    /usr/lib/ruby/1.8/thin/controllers/controller.rb:80:in `start'
+    /usr/lib/ruby/1.8/thin/runner.rb:174:in `send'
+    /usr/lib/ruby/1.8/thin/runner.rb:174:in `run_command'
+    /usr/lib/ruby/1.8/thin/runner.rb:140:in `run!'
+    /usr/bin/thin:6
+
+Rendering /home/aleksey/work/vzlet/rails/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing VzletController#department (for 127.0.0.1 at 2010-05-04 13:39:07) [GET]
+Rendering template within layouts/vzlet
+Rendering vzlet/department
+Completed in 41ms (View: 15, DB: 0) | 200 OK [http://127.0.0.1/vzlet/department]
+
+
+Processing VzletController#index (for 127.0.0.1 at 2010-05-04 13:39:07) [GET]
+
+
+ActionController::RoutingError (No route matches "/stylesheets/corner.css" with {:method=>:get}):
+    /vendor/rails/actionpack/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:390:in `recognize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:112:in `dispatch_unlocked'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:125:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `synchronize'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:124:in `dispatch'
+    /vendor/rails/actionpack/lib/action_controller/dispatcher.rb:143:in `call'
+    /usr/lib/ruby/1.8/rack/adapter/rails.rb:75:in `call'
+    /usr/lib/ruby/1.8/thin/connection.rb:76:in `pre_process'
+    /usr/lib/ruby/1.8/thin/connection.rb:74:in `catch'
+    /usr/lib/ruby/1.8/thin/connection.rb:74:in `pre_process'
+    /usr/lib/ruby/1.8/thin/connection.rb:57:in `process'
+    /usr/lib/ruby/1.8/thin/connection.rb:42:in `receive_data'
+    /usr/lib/ruby/1.8/eventmachine.rb:240:in `run_machine'
+    /usr/lib/ruby/1.8/eventmachine.rb:240:in `run'
+    /usr/lib/ruby/1.8/thin/backends/base.rb:57:in `start'
+    /usr/lib/ruby/1.8/thin/server.rb:156:in `start'
+    /usr/lib/ruby/1.8/thin/controllers/controller.rb:80:in `start'
+    /usr/lib/ruby/1.8/thin/runner.rb:174:in `send'
+    /usr/lib/ruby/1.8/thin/runner.rb:174:in `run_command'
+    /usr/lib/ruby/1.8/thin/runner.rb:140:in `run!'
+    /usr/bin/thin:6
+
+Rendering /home/aleksey/work/vzlet/rails/vendor/rails/actionpack/lib/action_controller/templates/rescues/layout.erb (not_found)
