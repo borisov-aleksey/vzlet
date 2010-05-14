@@ -413,6 +413,53 @@ h1.logo {
   font-size: 17px;
   line-height: 19px; }
 
+.department .map {
+  float: right;
+  width: 430px;
+  border-left: 1px dashed #7d7d7d; }
+.department .about {
+  margin-right: 455px; }
+
+.catalogue .dowloadLD {
+  float: right; }
+.catalogue h4 {
+  font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  color: #909090;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 0.7em; }
+  .catalogue h4 span {
+    position: relative;
+    top: 0.7em;
+    background-color: #fff;
+    padding-right: 10px; }
+.catalogue .products {
+  margin: -20px 0 0 -20px; }
+  .catalogue .products li {
+    width: 164px;
+    margin: 20px 0 0 20px;
+    float: left;
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif, Verdana;
+    font-size: 11px; }
+    .catalogue .products li .about {
+      display: block; }
+.catalogue .fColumn, .catalogue .sColumn, .catalogue .tColumn {
+  float: left;
+  width: 268px; }
+  .catalogue .fColumn dt, .catalogue .sColumn dt, .catalogue .tColumn dt {
+    font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+    font-size: 19px;
+    line-height: 23px;
+    margin-top: 33px; }
+  .catalogue .fColumn p, .catalogue .sColumn p, .catalogue .tColumn p {
+    margin-bottom: 0; }
+.catalogue .fColumn, .catalogue .sColumn {
+  padding-right: 20px; }
+.catalogue .sColumn, .catalogue .tColumn {
+  padding-left: 20px; }
+
 .footer {
   font-family: Tahoma, Geneva, sans-serif, Verdana;
   font-size: 11px;
