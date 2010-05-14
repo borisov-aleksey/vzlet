@@ -8,6 +8,9 @@ class VzletController < ApplicationController
   def support
   end
 
+  def support2
+  end
+
   def device
   end
 

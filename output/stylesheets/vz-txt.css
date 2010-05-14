@@ -9,7 +9,8 @@
     font-size: 26px;
     color: #9c9c9c;
     line-height: 28px;
-    margin-bottom: 28px; }
+    margin-bottom: 28px;
+    margin-top: 36px; }
   .txt h4 {
     font-size: 18px;
     line-height: 20px;
@@ -52,10 +53,10 @@
       position: relative;
       border-bottom: .1em dotted #000;
       padding-right: 10em;
-      padding-bottom: 0; }
+      padding-bottom: 0;
+      margin: 3px 0; }
       .txt .dotted li.br {
-        border: none;
-        height: 24px; }
+        border: none; }
       .txt .dotted li .value {
         position: absolute;
         right: 0;
@@ -68,3 +69,10 @@
         bottom: -.3em;
         left: 0;
         background: #fff; }
+  .txt sup {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+    font-size: 65%; }
+    .txt sup a {
+      text-decoration: none; }

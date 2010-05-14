@@ -123,9 +123,12 @@ h1.logo {
     background: transparent url(../images/vzlet/headerSearch.png) no-repeat -157px 0;
     border: none;
     width: 24px;
-    height: 24px;
+    height: 0;
     padding: 24px 0 0 0;
-    overflow: hidden; }
+    overflow: hidden;
+    display: block;
+    float: left;
+    cursor: pointer; }
 
 .sMenu {
   font-family: Tahoma, Geneva, sans-serif, Verdana;
@@ -222,7 +225,7 @@ h1.logo {
 .content {
   padding: 0 28px 50px 28px; }
   .content .layout50 {
-    width: 410px;
+    width: 422px;
     float: left; }
   .content .layout_l {
     padding-right: 30px; }
@@ -406,6 +409,9 @@ h1.logo {
 
 .publications .newsMenu {
   float: right; }
+.publications .dowloadLD a {
+  font-size: 17px;
+  line-height: 19px; }
 
 .footer {
   font-family: Tahoma, Geneva, sans-serif, Verdana;
@@ -423,3 +429,56 @@ h1.logo {
     padding-top: 1em;
     clear: both;
     display: block; }
+
+.searchB {
+  font-family: Tahoma, Geneva, sans-serif, Verdana;
+  font-size: 11px;
+  position: relative;
+  float: left; }
+  .searchB label {
+    cursor: text;
+    color: #b7b6b6;
+    position: absolute;
+    left: 0;
+    line-height: 30px;
+    padding: 0 8px; }
+  .searchB input {
+    background: transparent url(../images/vzlet/search.png) no-repeat 0 0;
+    border: none;
+    float: left;
+    height: 14px;
+    line-height: 16px;
+    width: 435px;
+    padding: 8px; }
+  .searchB button {
+    background: transparent url(../images/vzlet/search.png) no-repeat -451px 0;
+    border: none;
+    width: 30px;
+    height: 0;
+    padding: 30px 0 0 0;
+    overflow: hidden;
+    display: block;
+    float: left;
+    cursor: pointer; }
+
+.sB .about {
+  float: right;
+  margin-top: -6px;
+  margin-bottom: 0;
+  width: 400px; }
+.sB .sl {
+  width: 482px;
+  height: 30px;
+  line-height: 30px; }
+
+.pTable {
+  width: 100%; }
+  .pTable th {
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #ccc; }
+  .pTable td {
+    border: 1px solid #ccc; }
+  .pTable th, .pTable td {
+    padding: 3px 5px; }
