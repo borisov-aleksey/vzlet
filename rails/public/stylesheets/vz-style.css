@@ -304,6 +304,9 @@ h1.logo {
   font-size: 12px;
   line-height: 16px;
   margin: 9px 0 18px; }
+  .dowloadLD .info, .dowloadLD .about, .dowloadLD .h {
+    margin-left: 52px;
+    display: block; }
   .dowloadLD .info {
     color: #969696;
     display: block; }
@@ -410,8 +413,9 @@ h1.logo {
 .publications .newsMenu {
   float: right; }
 .publications .dowloadLD a {
-  font-size: 17px;
-  line-height: 19px; }
+  font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+  font-size: 18px;
+  line-height: 18px; }
 
 .department .map {
   float: right;
@@ -459,6 +463,26 @@ h1.logo {
   padding-right: 20px; }
 .catalogue .sColumn, .catalogue .tColumn {
   padding-left: 20px; }
+
+.map h4 {
+  font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  color: #595959;
+  margin-top: 0 !important; }
+.map .ul {
+  margin-bottom: 25px; }
+.map .firColumn {
+  float: left;
+  width: 240px; }
+.map .secColumn {
+  float: left;
+  width: 240px; }
+.map .mapBlock {
+  float: right;
+  width: 348px; }
+  .map .mapBlock .about {
+    margin-top: 30px !important; }
 
 .footer {
   font-family: Tahoma, Geneva, sans-serif, Verdana;
@@ -521,10 +545,10 @@ h1.logo {
 .pTable {
   width: 100%; }
   .pTable th {
+    background-color: #efefef;
     font-weight: bold;
     text-align: center;
-    border: 1px solid #ccc;
-    border-bottom: 2px solid #ccc; }
+    border: 1px solid #ccc; }
   .pTable td {
     border: 1px solid #ccc; }
   .pTable th, .pTable td {

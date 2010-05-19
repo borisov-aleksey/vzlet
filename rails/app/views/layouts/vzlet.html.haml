@@ -4,7 +4,8 @@
     %title Взлет
     %meta{ "http-equiv" => "Content-Type", "content" => "text/html; charset=utf-8" }/
     =stylesheet_link_tag "reset", "vz-style", "corner", "vz-txt"
-    =javascript_tag "jquery-1.4.2.min"
+    =javascript_include_tag "jquery-1.4.2.min"
+    =javascript_include_tag "script.js"
     /[if lt IE 8]
       =stylesheet_link_tag "vz-ie6"
   %body
@@ -27,15 +28,15 @@
               %li.active
                 %span.li_c<>
                   %a{ "href" => "#" }<> Продукция
-              %li.hover
+              %li
                 %span.li_c<>
                   %a{ "href" => "#" }<> Поддержка
               %li
                 %span.li_c<>
                   %a{ "href" => "#" }<> Компания
-              %li.active
+              %li
                 %span.li_c<>
-                  %strong<> Контактная информация
+                  %a{ "href" => "#" }<> Контактная информация
       .content
         =yield
       #autoFooterMargin

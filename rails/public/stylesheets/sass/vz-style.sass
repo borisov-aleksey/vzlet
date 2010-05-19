@@ -315,6 +315,9 @@ h1.logo
   :font-size 12px
   :line-height 16px
   :margin 9px 0 18px
+  .info, .about, .h
+    :margin-left 52px
+    :display block
   .info
     :color #969696
     :display block
@@ -420,8 +423,9 @@ h1.logo
   .newsMenu
     :float right
   .dowloadLD a
-    :font-size 17px
-    :line-height 19px
+    +fontArial
+    :font-size 18px
+    :line-height 18px
 
 .department
   .map
@@ -471,7 +475,26 @@ h1.logo
     :padding-right 20px
   .sColumn, .tColumn
     :padding-left 20px
-
+.map
+  h4
+    +fontArial
+    :font-size 14px
+    :line-height 23px
+    :color #595959
+    :margin-top 0 !important
+  .ul
+    :margin-bottom 25px
+  .firColumn
+    :float left
+    :width 240px
+  .secColumn
+    :float left
+    :width 240px
+  .mapBlock
+    :float right
+    :width 348px
+    .about
+      :margin-top 30px !important
 .footer
   +fontTahoma
   :font-size 11px
@@ -539,10 +562,10 @@ h1.logo
 .pTable
   :width 100%
   th
+    :background-color #efefef
     :font-weight bold
     :text-align center
     :border 1px solid #ccc
-    :border-bottom 2px solid #ccc
   td
     :border 1px solid #ccc
   th, td
