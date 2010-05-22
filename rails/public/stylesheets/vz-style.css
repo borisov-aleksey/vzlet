@@ -97,6 +97,21 @@ h1.logo {
           background-position: right -344px;
           color: #fff;
           cursor: default; }
+      .hMenu ul li.right {
+        float: right; }
+        .hMenu ul li.right .icon {
+          background: transparent url(../images/vzlet/auth.png) no-repeat 0 0;
+          height: 0;
+          padding-top: 14px;
+          width: 11px;
+          overflow: hidden;
+          display: inline-block;
+          vertical-align: middle;
+          margin: -2px 4px 0 0;
+          -background-image: none !important;
+          -filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/vzlet/auth.png', sizingMethod='scale'); }
+        .hMenu ul li.right .txt {
+          vertical-align: middle; }
 
 .search {
   font-family: Tahoma, Geneva, sans-serif, Verdana;
@@ -488,6 +503,10 @@ h1.logo {
   font-family: Tahoma, Geneva, sans-serif, Verdana;
   font-size: 11px;
   line-height: 14px; }
+  .footer .footerLogo {
+    float: left; }
+  .footer .footerLogoText {
+    margin-left: 62px; }
   .footer .fColumn, .footer .sColumn, .footer .tColumn {
     float: left; }
   .footer .fColumn {
@@ -500,6 +519,20 @@ h1.logo {
     padding-top: 1em;
     clear: both;
     display: block; }
+
+.fMenu {
+  font-family: Tahoma, Geneva, sans-serif, Verdana;
+  font-size: 11px;
+  line-height: 14px;
+  margin-top: -12px; }
+  .fMenu li {
+    margin: 12px 0 12px 0; }
+  .fMenu .colapse a {
+    font-weight: bold; }
+  .fMenu .colapse ul a {
+    font-weight: normal; }
+  .fMenu ul {
+    margin-left: 36px; }
 
 .searchB {
   font-family: Tahoma, Geneva, sans-serif, Verdana;
@@ -531,6 +564,116 @@ h1.logo {
     display: block;
     float: left;
     cursor: pointer; }
+
+.sB .about {
+  float: right;
+  margin-top: -6px;
+  margin-bottom: 0;
+  width: 400px; }
+.sB .sl {
+  width: 482px;
+  height: 30px;
+  line-height: 30px; }
+
+.mainPage h2 {
+  font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+  font-size: 21px;
+  color: #348acd;
+  font-weight: normal;
+  margin: 20px 0 20px 0; }
+.mainPage .waranty {
+  background: #53aadb url(../images/vzlet/mainPageWarantyBg.gif) repeat-x 0 0;
+  color: #fff;
+  font-family: Tahoma, Geneva, sans-serif, Verdana;
+  font-size: 12px;
+  height: 188px;
+  margin-top: 7px;
+  padding: 0 0 0 30px; }
+  .mainPage .waranty h2 {
+    font-size: 19px;
+    line-height: 22px;
+    display: block;
+    padding: 20px 0 15px 0;
+    margin: 0;
+    color: #fff; }
+  .mainPage .waranty a {
+    color: #fff; }
+  .mainPage .waranty .wa {
+    float: right; }
+  .mainPage .waranty p {
+    line-height: 18px;
+    margin: 7px 0; }
+.mainPage .laLeft {
+  margin-right: 270px; }
+.mainPage .laRight {
+  width: 230px;
+  float: right; }
+  .mainPage .laRight img {
+    margin: 20px 0 0 0; }
+.mainPage .products li {
+  float: left;
+  width: 33%; }
+.mainPage .products .img {
+  float: left;
+  margin-right: 10px; }
+.mainPage .products a {
+  font-size: 18px;
+  font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+  color: #3287cc; }
+.mainPage .products .about {
+  display: block;
+  font-size: 11px;
+  font-family: Tahoma, Geneva, sans-serif, Verdana;
+  margin: 0 0 10px 0;
+  padding-top: 25px; }
+.mainPage .mainPageNews dl {
+  margin: -15px 0 0 20px;
+  font-family: Tahoma, Geneva, sans-serif, Verdana;
+  font-size: 11px;
+  line-height: 14px;
+  overflow: hidden;
+  zoom: 1; }
+  .mainPage .mainPageNews dl dt {
+    color: #838383;
+    float: left;
+    width: 64px;
+    text-align: left;
+    margin: 10px 0 9px 0; }
+  .mainPage .mainPageNews dl dd h4 {
+    margin: 10px 0 9px 82px;
+    display: block;
+    color: #6b6b6b;
+    font-family: Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: bold; }
+.mainPage .docList {
+  margin: 0 0 0 20px; }
+.mainPage label {
+  cursor: text;
+  color: #b7b6b6;
+  position: absolute;
+  left: 0;
+  line-height: 30px;
+  padding: 0 8px; }
+.mainPage input {
+  background: transparent url(../images/vzlet/search.png) no-repeat 0 0;
+  border: none;
+  float: left;
+  height: 14px;
+  line-height: 16px;
+  width: 435px;
+  padding: 8px; }
+.mainPage button {
+  background: transparent url(../images/vzlet/search.png) no-repeat -451px 0;
+  border: none;
+  width: 30px;
+  height: 0;
+  padding: 30px 0 0 0;
+  overflow: hidden;
+  display: block;
+  float: left;
+  cursor: pointer; }
 
 .sB .about {
   float: right;

@@ -22,6 +22,12 @@
         .hMenu
           .m_links_c
             %ul
+              %li.right
+                %span.li_c<>
+                  %a{ "href" => "#" }<>
+                    %span.icon<>
+                    %span.txt
+                    Вход для партнеров
               %li
                 %span.li_c<>
                   %a{ "href" => "#" }<> Главная
@@ -42,9 +48,11 @@
       #autoFooterMargin
     .footer#autoFooter
       .fColumn
-        Телефон в СПБ: +7 812 363-21-60 (61)
-        %br/
-        Телефон в Мск: +7 495 721-88-57
+        %img.footerLogo{ "src" => "/images/vzlet/footerLogo.gif", "width" => "43", "height" => "34", "alt" => "0" }/
+        .footerLogoText
+          &copy; 2004—2009 «Инлайн».
+          %br/
+          Все права защищены.
       .sColumn
         Факс: +7 812 363-21-62
         %br/
@@ -53,5 +61,3 @@
         Почтовый адрес: 196084, Санкт-Петербург,
         %br/
         ул. Малая Митрофаньевская, д.4, ООО «Инлайн»
-      %span.copy
-        &copy; 2004—2009 «Инлайн». Все права защищены.

@@ -104,6 +104,21 @@ h1.logo
           :background-position right -344px
           :color #fff
           :cursor default
+      &.right
+        :float right
+        .icon
+          :background = "transparent url(" + !img + "/auth.png) no-repeat 0 0"
+          :height 0
+          :padding-top 14px
+          :width 11px
+          :overflow hidden
+          :display inline-block
+          :vertical-align middle
+          :margin -2px 4px 0 0
+          :-background-image none !important
+          :-filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + !img + "/auth.png', sizingMethod='scale')"
+        .txt
+          :vertical-align middle
 .search
   +fontTahoma
   :font-size 11px
@@ -499,6 +514,10 @@ h1.logo
   +fontTahoma
   :font-size 11px
   :line-height 14px
+  .footerLogo
+    :float left
+  .footerLogoText
+    :margin-left 62px
   .fColumn, .sColumn, .tColumn
     :float left
   .fColumn
@@ -512,15 +531,143 @@ h1.logo
     :clear both
     :display block
 
-
-
-
-
+.fMenu
+  +fontTahoma
+  :font-size 11px
+  :line-height 14px
+  :margin-top -12px
+  li
+    :margin 12px 0 12px 0
+  .colapse
+    a
+      :font-weight bold
+    ul a
+      :font-weight normal
+  ul
+    :margin-left 36px
+  
 .searchB
   +fontTahoma
   :font-size 11px
   :position relative
   :float left
+  label
+    :cursor text
+    :color #b7b6b6
+    :position absolute
+    :left 0
+    :line-height 30px
+    :padding 0 8px
+  input
+    :background = "transparent url(" + !img + "/search.png) no-repeat 0 0"
+    :border none
+    :float left
+    :height 14px
+    :line-height 16px
+    :width 435px
+    :padding 8px
+  button
+    :background = "transparent url(" + !img + "/search.png) no-repeat -451px 0"
+    :border none
+    :width 30px
+    :height 0
+    :padding 30px 0 0 0
+    :overflow hidden
+    :display block
+    :float left
+    :cursor pointer
+
+.sB
+  .about
+    :float right
+    :margin-top -6px
+    :margin-bottom 0
+    :width 400px
+  .sl
+    :width 482px
+    :height 30px
+    :line-height 30px
+
+.mainPage
+  h2
+    +fontArial
+    :font-size 21px
+    :color #348acd
+    :font-weight normal
+    :margin 20px 0 20px 0
+  .waranty
+    :background = "#53aadb url(" + !img + "/mainPageWarantyBg.gif) repeat-x 0 0"
+    :color #fff
+    +fontTahoma
+    :font-size 12px
+    :height 188px
+    :margin-top 7px
+    :padding 0 0 0 30px
+    h2
+      :font-size 19px
+      :line-height 22px
+      :display block
+      :padding 20px 0 15px 0
+      :margin 0
+      :color #fff
+    a
+      :color #fff
+    .wa
+      :float right
+    p
+      :line-height 18px
+      :margin 7px 0
+  .laLeft
+    :margin-right 270px
+  .laRight
+    :width 230px
+    :float right
+    img
+      :margin 20px 0 0 0
+  .products
+    li
+      :float left
+      :width 33%
+    .img
+      :float left
+      :margin-right 10px
+    a
+      :font-size 18px
+      +fontArial
+      :color #3287cc
+    .about
+      :display block
+      :font-size 11px
+      +fontTahoma
+      :margin 0 0 10px 0
+      :padding-top 25px
+    
+  .mainPageNews
+    dl
+      :margin -15px 0 0 20px
+      +fontTahoma
+      :font-size 11px
+      :line-height 14px
+      :overflow hidden
+      :zoom 1
+      dt
+        :color #838383
+        :float left
+        :width 64px
+        :text-align left
+        :margin 10px 0 9px 0
+      dd
+        h4
+          :margin 10px 0 9px 82px
+          :display block
+          :color #6b6b6b
+          +fontArial
+          :font-size 14px
+          :line-height 18px
+          :font-weight bold
+  .docList
+    :margin 0 0 0 20px
+
   label
     :cursor text
     :color #b7b6b6

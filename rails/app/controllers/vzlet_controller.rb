@@ -2,6 +2,12 @@ class VzletController < ApplicationController
   def index
   end
 
+  def mainPage
+  end
+
+  def otziv
+  end
+
   def news
   end
 
