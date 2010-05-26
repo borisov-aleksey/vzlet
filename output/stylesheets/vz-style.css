@@ -696,3 +696,381 @@ h1.logo {
     border: 1px solid #ccc; }
   .pTable th, .pTable td {
     padding: 3px 5px; }
+
+.uf .clear {
+  margin: 15px 0; }
+.uf .left-side {
+  float: left;
+  width: 168px;
+  text-align: right; }
+.uf label {
+  font-family: Tahoma, Geneva, sans-serif, Verdana;
+  font-size: 12px; }
+  .uf label.left-side {
+    text-align: right;
+    display: block;
+    margin-right: 10px;
+    padding: 3px 0 2px 0;
+    line-height: 19px;
+    margin: 7px 10px 7px 0;
+    font-weight: bold; }
+  .uf label.db {
+    margin: 0 0 15px 0;
+    display: block;
+    font-size: 14px;
+    line-height: 19px; }
+  .uf label.right-radio-label {
+    font-size: 14px;
+    line-height: 19px; }
+.uf input.right-radio {
+  margin-right: 2px; }
+.uf input.right-checkbox {
+  margin-right: 2px;
+  vertical-align: top;
+  margin-top: 3px; }
+.uf .right-side {
+  margin-left: 186px;
+  *margin-left: 100px; }
+  .uf .right-side ul {
+    padding: 7px 0; }
+    .uf .right-side ul li {
+      padding: 3px 0 2px 0; }
+.uf div.butt {
+  margin-left: 0;
+  padding-left: 178px; }
+.uf input.input, .uf select.select, .uf textarea.textarea {
+  border: 1px solid #b1b1b1;
+  font-family: Arial;
+  font-size: 14px;
+  height: 18px;
+  padding: 3px 2px 2px 2px;
+  margin: 7px 0; }
+.uf textarea.textarea {
+  height: 10em;
+  margin: 7px 0; }
+.uf input.file {
+  height: 20px;
+  margin: 7px 0; }
+.uf select.select {
+  height: 25px;
+  vertical-align: top; }
+.uf input.width-all, .uf textarea.width-all {
+  width: 295px; }
+.uf textarea.width-100 {
+  width: 98.69%; }
+.uf select.width-all {
+  width: 301px;
+  -width: auto !important; }
+.uf input.file {
+  width: 301px;
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 20px;
+  height: 24px;
+  padding: 0 2px 0 2px; }
+.uf input.but, .uf button.but {
+  font-family: Arial;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 5px 10px; }
+.uf p.dsc, .uf p.error {
+  display: block;
+  font-family: Arial;
+  font-size: 11px;
+  line-height: 13px;
+  color: #8c8c8c;
+  margin: 3px 0; }
+.uf .clear.error input.error {
+  background-color: #f8ffbe; }
+.uf .clear.error p.error {
+  color: #d80000; }
+.uf .clear .focus {
+  background-color: #edffd7 !important; }
+.uf ul.radio-list {
+  width: 33%;
+  float: left; }
+  .uf ul.radio-list input, .uf ul.radio-list label {
+    vertical-align: middle; }
+  .uf ul.radio-list input {
+    float: left;
+    width: 20px;
+    overflow: hidden;
+    border: 1px solid red;
+    display: block !important;
+    margin-top: 3px; }
+  .uf ul.radio-list div {
+    margin-left: 20px;
+    display: block;
+    overflow: hidden; }
+  .uf ul.radio-list li {
+    margin-right: 10px;
+    overflow: hidden; }
+  .uf ul.radio-list ul li {
+    margin: 0 0 0 10px;
+    padding: 0; }
+.uf input.width-all.inp {
+  width: 232px; }
+.uf textarea.width-all.inp {
+  width: 253px; }
+.uf input.inp {
+  padding-right: 23px; }
+.uf input.width-all.inpcomm, .uf textarea.width-all.inpcomm {
+  width: 150px; }
+.uf input.inpcomm {
+  padding-right: 60px; }
+.uf .text-tip {
+  color: #6d6d6d; }
+.uf sub.inp {
+  position: absolute;
+  overflow: hidden;
+  width: 20px;
+  height: 0;
+  margin-left: -22px;
+  margin-top: 4px;
+  padding-top: 16px;
+  background-color: #fff;
+  font-size: 8px;
+  color: #7f7f7f; }
+.uf sub.inp.ru {
+  background-image: url(../img/icons/ru.gif); }
+.uf sub.inp.en {
+  background-image: url(../img/icons/en.gif); }
+.uf sub.inp.com {
+  margin-left: -58px; }
+.uf ul.list_of_checkboxes, .uf ul.ochenoch {
+  font-family: Arial;
+  font-size: 14px; }
+.uf ul.ochenoch label, .uf ul.ochenoch input {
+  vertical-align: middle; }
+.uf ul.list_of_checkboxes input {
+  float: left;
+  display: block;
+  vertical-align: middle; }
+.uf ul.list_of_checkboxes label {
+  margin-left: 20px;
+  display: block;
+  vertical-align: middle; }
+.uf ul.list_of_checkboxes ul {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding-top: 2px; }
+  .uf ul.list_of_checkboxes ul li {
+    margin: 2px 2px 2px 0; }
+.uf ul.list_of_checkboxes div {
+  margin-left: 20px;
+  padding-bottom: 2px; }
+  .uf ul.list_of_checkboxes div label {
+    float: none;
+    display: inline;
+    border-bottom: 1px dashed #0044cc;
+    margin-left: 0;
+    cursor: pointer;
+    color: #0044cc; }
+.uf .width-all, .uf .select {
+  background-color: #fff;
+  letter-spacing: inherit !important; }
+.uf .left-side img, .uf .right-side img {
+  margin-bottom: -3px;
+  padding-right: 4px; }
+.uf .right-side p {
+  clear: both; }
+.uf .right-side img {
+  vertical-align: top;
+  padding-top: 3px; }
+.uf div.wither {
+  background-color: #fffee8;
+  border: 1px solid #7F9DB9;
+  margin-right: 48px; }
+.uf .marginer {
+  margin: 0 48px 0 128px !important; }
+.uf div.wither input, .uf div.wither textarea {
+  display: block;
+  width: 100% !important;
+  background: transparent;
+  border: none;
+  margin: 0;
+  padding: 3px 0 2px 0; }
+.uf ul.list_of_checkboxes li, .uf ul.ochenoch li {
+  margin-bottom: 5px;
+  line-height: 100%; }
+.uf ul.ochenoch li h4 {
+  padding: 16px 0 2px 0 !important;
+  color: #767676; }
+.uf .split {
+  float: left;
+  width: 50%; }
+  .uf .split img {
+    float: left; }
+  .uf .split div {
+    background-color: #fffee8;
+    border: 1px solid #7F9DB9;
+    margin: 0;
+    overflow: hidden; }
+    .uf .split div input {
+      display: block;
+      width: 100% !important;
+      background: transparent;
+      border: none;
+      margin: 0; }
+.uf div.highm {
+  margin: 0 48px 28px 0; }
+.uf div.null {
+  margin: 0 0 28px 0 !important; }
+.uf div.lowm {
+  margin-bottom: 7px; }
+.uf .split input {
+  font-size: 12px; }
+.uf .eng {
+  display: none; }
+
+table.common b, table.board b {
+  width: 1px; }
+
+table.common, table.board {
+  font-family: Tahoma, Geneva, sans-serif, Verdana;
+  width: 100%;
+  /* IE6 */
+  font-size: 11px;
+  margin: 10px 0; }
+  table.common thead tr th, table.common thead tr th div, table.board thead tr th, table.board thead tr th div {
+    background-image: url(../images/vzlet/table/thead.gif);
+    background-repeat: no-repeat; }
+  table.common thead tr, table.board thead tr {
+    background-repeat: repeat-x;
+    background-color: #ebebeb;
+    height: 36px; }
+    table.common thead tr th, table.board thead tr th {
+      vertical-align: top;
+      background-color: transparent;
+      background-repeat: repeat-x;
+      height: 36px !important;
+      padding: 0 !important;
+      line-height: 36px;
+      font-size: 12px;
+      font-weight: normal; }
+      table.common thead tr th div, table.board thead tr th div {
+        background-color: transparent;
+        background-position: left -144px;
+        background-repeat: no-repeat; }
+        table.common thead tr th div div, table.board thead tr th div div {
+          /* :padding 3px 11px 0 11px */
+          background-position: right -107px;
+          background-repeat: no-repeat;
+          height: 36px;
+          white-space: nowrap;
+          padding-left: 8px;
+          padding-right: 8px; }
+      table.common thead tr th.first div, table.board thead tr th.first div {
+        background-position: left -36px; }
+        table.common thead tr th.first div div, table.board thead tr th.first div div {
+          background-position: right -107px; }
+      table.common thead tr th.last div, table.board thead tr th.last div {
+        background-position: left -144px; }
+        table.common thead tr th.last div div, table.board thead tr th.last div div {
+          background-position: right -72px; }
+      table.common thead tr th.active, table.board thead tr th.active {
+        background-position: left -180px;
+        background-repeat: repeat-x; }
+        table.common thead tr th.active div, table.board thead tr th.active div {
+          background-position: left -351px;
+          padding: 0;
+          height: 36px; }
+          table.common thead tr th.active div div, table.board thead tr th.active div div {
+            background-position: right -312px;
+            padding: 0 8px;
+            height: 36px; }
+      table.common thead tr th.first_active div, table.board thead tr th.first_active div {
+        background-position: left -234px; }
+        table.common thead tr th.first_active div div, table.board thead tr th.first_active div div {
+          background-position: right -312px; }
+      table.common thead tr th.last_active div div, table.board thead tr th.last_active div div {
+        background-position: right -273px; }
+  table.common thead th.select a, table.board thead th.select a {
+    background: transparent url(/img/buttons/selector-left.gif) no-repeat left -45px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    padding: 0 11px 0 8px;
+    color: #fff;
+    text-decoration: none; }
+  table.common thead th.select span.icon.sort-down, table.common thead th.select span.icon.sort-up, table.board thead th.select span.icon.sort-down, table.board thead th.select span.icon.sort-up {
+    margin: 13px 0 0 0; }
+  table.common thead th.views span.icon.view, table.board thead th.views span.icon.view {
+    float: right; }
+  table.common thead th.checkboxes div, table.board thead th.checkboxes div {
+    padding-left: 0; }
+  table.common tbody td, table.board tbody td {
+    vertical-align: middle;
+    height: 40px;
+    padding: 5px 8px; }
+    table.common tbody td.checkboxes, table.board tbody td.checkboxes {
+      padding-right: 0;
+      padding-left: 0; }
+    table.common tbody td.price-place, table.board tbody td.price-place {
+      padding: 15px 10px; }
+    table.common tbody td.img div, table.board tbody td.img div {
+      padding: 0 0 0 9px; }
+    table.common tbody td.check, table.board tbody td.check {
+      text-align: center; }
+    table.common tbody td.category, table.board tbody td.category {
+      padding-right: 0; }
+      table.common tbody td.category span.icon, table.board tbody td.category span.icon {
+        margin: 0; }
+    table.common tbody td.date, table.board tbody td.date {
+      width: 37px; }
+      table.common tbody td.date div, table.board tbody td.date div {
+        padding: 0 8px; }
+      table.common tbody td.date .abbr, table.board tbody td.date .abbr {
+        font-size: 11px;
+        cursor: default;
+        border-bottom: 1px dashed #666;
+        color: #666;
+        line-height: 15px; }
+    table.common tbody td.views, table.board tbody td.views {
+      text-align: right;
+      cursor: default; }
+      table.common tbody td.views div, table.board tbody td.views div {
+        padding: 0 14px 0 2px; }
+    table.common tbody td.comments div div, table.board tbody td.comments div div {
+      padding: 0 0 0 8px; }
+    table.common tbody td.user div, table.board tbody td.user div {
+      padding-left: 8px; }
+    table.common tbody td.last, table.board tbody td.last {
+      border-right: 1px solid #fff; }
+  table.common tbody tr, table.board tbody tr {
+    /* :position relative */ }
+    table.common tbody tr.even td, table.board tbody tr.even td {
+      background-color: #f3f3f3; }
+    table.common tbody tr.hover td, table.board tbody tr.hover td {
+      background-color: #e5edf3; }
+    table.common tbody tr.selected td, table.board tbody tr.selected td {
+      background-color: #fff8Be; }
+    table.common tbody tr.disable td, table.board tbody tr.disable td {
+      background-color: #f2f2f2; }
+      table.common tbody tr.disable td .adv_t, table.common tbody tr.disable td .col_4, table.board tbody tr.disable td .adv_t, table.board tbody tr.disable td .col_4 {
+        color: #919191; }
+      table.common tbody tr.disable td .adv_t a, table.board tbody tr.disable td .adv_t a {
+        color: #91b1df; }
+        table.common tbody tr.disable td .adv_t a:hover, table.board tbody tr.disable td .adv_t a:hover {
+          color: #b2c9eb; }
+    table.common tbody tr td.caption, table.board tbody tr td.caption {
+      font-weight: bold; }
+    table.common tbody tr.select, table.board tbody tr.select {
+      background-color: #fffbdd; }
+  table.common tbody input, table.board tbody input {
+    display: block;
+    margin: 1px auto 0;
+    position: relative;
+    *top: 5px; }
+  table.common th .text_align_right, table.common td .text_align_right, table.board th .text_align_right, table.board td .text_align_right {
+    text-align: right; }
+  table.common th .text_align_center, table.common td .text_align_center, table.board th .text_align_center, table.board td .text_align_center {
+    text-align: center; }
+  table.common th .vertical_align_top, table.common td .vertical_align_top, table.board th .vertical_align_top, table.board td .vertical_align_top {
+    vertical-align: top; }
+  table.common th .vertical_align_middle, table.common td .vertical_align_middle, table.board th .vertical_align_middle, table.board td .vertical_align_middle {
+    vertical-align: middle; }
+  table.common th .vertical_align_bottom, table.common td .vertical_align_bottom, table.board th .vertical_align_bottom, table.board td .vertical_align_bottom {
+    vertical-align: bottom; }
+  table.common .bul div div, table.common th.update div div, table.board .bul div div, table.board th.update div div {
+    padding: 0 2px 0 8px; }

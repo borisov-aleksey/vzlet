@@ -1,0 +1,292 @@
+.uf.txt
+  %h4 Редактировать прибор
+  %label.left-side{ :for => "oldpass" } Название:
+  .right-side
+    %input#oldpass.input.width-all{ :type => "text", :value => "", :id => "", :name => "oldpass" }/
+  %label.left-side{ :for => "main_descriptionRu" } Краткое описание:
+  .right-side
+    %textarea#main_descriptionRu.textarea.width-100.inp{ :style => "height: auto;", :cols => "10", :rows => "5", :name => "main_descriptionRu" }
+  %label.left-side{ :for => "main_country" } Страна:
+  .right-side
+    %select#main_country.select.width-all{ :name => "main_country" }
+      %option{ :value => "2" } Австралия
+      %option{ :value => "11" } Австрия
+      %option{ :value => "55" } Азербайджан
+      %option{ :value => "150" } Албания
+      %option{ :value => "97" } Алжир
+      %option{ :value => "98" } Ангола
+      %option{ :value => "151" } Андорра
+      %option{ :value => "178" } Антигуа и Барбуда
+      %option{ :value => "9" } Аргентина
+      %option{ :value => "56" } Армения
+      %option{ :value => "57" } Афганистан
+      %option{ :value => "180" } Багамы
+      %option{ :value => "58" } Бангладеш
+      %option{ :value => "181" } Барбадос
+      %option{ :value => "59" } Бахрейн
+      %option{ :value => "182" } Белиз
+      %option{ :value => "214" } Белоруссия
+      %option{ :value => "15" } Бельгия
+      %option{ :value => "99" } Бенин
+      %option{ :value => "153" } Болгария
+      %option{ :value => "201" } Боливия
+      %option{ :value => "154" } Босния и Герцеговина
+      %option{ :value => "100" } Ботсвана
+      %option{ :value => "8" } Бразилия
+      %option{ :value => "60" } Бруней
+      %option{ :value => "101" } Буркина-Фасо
+      %option{ :value => "102" } Бурунди
+      %option{ :value => "61" } Бутан
+      %option{ :value => "40" } Вануату
+      %option{ :value => "155" } Ватикан
+      %option{ :value => "213" } Великобритания
+      %option{ :value => "22" } Венгрия
+      %option{ :value => "202" } Венесуэла
+      %option{ :value => "62" } Восточный Тимор
+      %option{ :value => "36" } Вьетнам
+      %option{ :value => "103" } Габон
+      %option{ :value => "184" } Гаити
+      %option{ :value => "203" } Гайана
+      %option{ :value => "104" } Гамбия
+      %option{ :value => "105" } Гана
+      %option{ :value => "185" } Гватемала
+      %option{ :value => "106" } Гвинея
+      %option{ :value => "107" } Гвинея-Бисау
+      %option{ :value => "17" } Германия
+      %option{ :value => "186" } Гондурас
+      %option{ :value => "187" } Гренада
+      %option{ :value => "158" } Греция
+      %option{ :value => "64" } Грузия
+      %option{ :value => "14" } Дания
+      %option{ :value => "109" } Джибути
+      %option{ :value => "189" } Доминика
+      %option{ :value => "190" } Доминиканская Республика
+      %option{ :value => "110" } Египет
+      %option{ :value => "111" } Замбия
+      %option{ :value => "113" } Зимбабве
+      %option{ :value => "39" } Израиль
+      %option{ :value => "65" } Индия
+      %option{ :value => "66" } Индонезия
+      %option{ :value => "67" } Иордания
+      %option{ :value => "68" } Ирак
+      %option{ :value => "69" } Иран
+      %option{ :value => "19" } Ирландия
+      %option{ :value => "38" } Исландия
+      %option{ :value => "18" } Испания
+      %option{ :value => "16" } Италия
+      %option{ :value => "70" } Йемен
+      %option{ :value => "114" } Кабо-Верде
+      %option{ :value => "37" } Казахстан
+      %option{ :value => "71" } Камбоджа
+      %option{ :value => "115" } Камерун
+      %option{ :value => "29" } Канада
+      %option{ :value => "72" } Катар
+      %option{ :value => "116" } Кения
+      %option{ :value => "159" } Кипр
+      %option{ :value => "73" } Киргизия
+      %option{ :value => "42" } Кирибати
+      %option{ :value => "30" } Китай
+      %option{ :value => "204" } Колумбия
+      %option{ :value => "117" } Коморские Острова
+      %option{ :value => "261" } Конго (Демократическая Республика)
+      %option{ :value => "260" } Конго (Республика)
+      %option{ :value => "211" } Корея (Северная)
+      %option{ :value => "212" } Корея (Южная)
+      %option{ :value => "205" } Коста-Рика
+      %option{ :value => "220" } Кот-д'Ивуар
+      %option{ :value => "191" } Куба
+      %option{ :value => "74" } Кувейт
+      %option{ :value => "75" } Лаос
+      %option{ :value => "160" } Латвия
+      %option{ :value => "119" } Лесото
+      %option{ :value => "120" } Либерия
+      %option{ :value => "76" } Ливан
+      %option{ :value => "121" } Ливия
+      %option{ :value => "20" } Литва
+      %option{ :value => "161" } Лихтенштейн
+      %option{ :value => "162" } Люксембург
+      %option{ :value => "122" } Маврикий
+      %option{ :value => "123" } Мавритания
+      %option{ :value => "124" } Мадагаскар
+      %option{ :value => "163" } Македония
+      %option{ :value => "125" } Малави
+      %option{ :value => "77" } Малайзия
+      %option{ :value => "126" } Мали
+      %option{ :value => "78" } Мальдивы
+      %option{ :value => "164" } Мальта
+      %option{ :value => "127" } Марокко
+      %option{ :value => "235" } Маршалловы Острова
+      %option{ :value => "192" } Мексика
+      %option{ :value => "128" } Мозамбик
+      %option{ :value => "165" } Молдавия
+      %option{ :value => "166" } Монако
+      %option{ :value => "79" } Монголия
+      %option{ :value => "80" } Мьянма
+      %option{ :value => "129" } Намибия
+      %option{ :value => "44" } Науру
+      %option{ :value => "81" } Непал
+      %option{ :value => "130" } Нигер
+      %option{ :value => "131" } Нигерия
+      %option{ :value => "35" } Нидерланды
+      %option{ :value => "193" } Никарагуа
+      %option{ :value => "7" } Новая Зеландия
+      %option{ :value => "27" } Норвегия
+      %option{ :value => "82" } Объединённые Арабские Эмираты
+      %option{ :value => "83" } Оман
+      %option{ :value => "84" } Пакистан
+      %option{ :value => "46" } Палау
+      %option{ :value => "206" } Панама
+      %option{ :value => "47" } Папуа - Новая Гвинея
+      %option{ :value => "13" } Парагвай
+      %option{ :value => "207" } Перу
+      %option{ :value => "21" } Польша
+      %option{ :value => "167" } Португалия
+      %option{ :value => "1", :selected =>"selected" } Россия
+      %option{ :value => "132" } Руанда
+      %option{ :value => "168" } Румыния
+      %option{ :value => "194" } Сальвадор
+      %option{ :value => "48" } Самоа
+      %option{ :value => "169" } Сан-Марино
+      %option{ :value => "133" } Сан-Томе и Принсипи
+      %option{ :value => "85" } Саудовская Аравия
+      %option{ :value => "134" } Свазиленд
+      %option{ :value => "135" } Сейшельские Острова
+      %option{ :value => "136" } Сенегал
+      %option{ :value => "253" } Сент-Винсент и Гренадины
+      %option{ :value => "196" } Сент-Китс и Невис
+      %option{ :value => "197" } Сент-Люсия
+      %option{ :value => "170" } Сербия
+      %option{ :value => "86" } Сингапур
+      %option{ :value => "87" } Сирия
+      %option{ :value => "171" } Словакия
+      %option{ :value => "172" } Словения
+      %option{ :value => "49" } Соломоновы Острова
+      %option{ :value => "137" } Сомали
+      %option{ :value => "138" } Судан
+      %option{ :value => "208" } Суринам
+      %option{ :value => "24" } США
+      %option{ :value => "139" } Сьерра-Леоне
+      %option{ :value => "88" } Таджикистан
+      %option{ :value => "90" } Таиланд
+      %option{ :value => "140" } Танзания
+      %option{ :value => "141" } Того
+      %option{ :value => "51" } Тонга
+      %option{ :value => "199" } Тринидад и Тобаго
+      %option{ :value => "52" } Тувалу
+      %option{ :value => "142" } Тунис
+      %option{ :value => "259" } Туркмения
+      %option{ :value => "92" } Турция
+      %option{ :value => "143" } Уганда
+      %option{ :value => "93" } Узбекистан
+      %option{ :value => "34" } Украина
+      %option{ :value => "32" } Уругвай
+      %option{ :value => "43" } Федеративные Штаты Микронезии
+      %option{ :value => "53" } Фиджи
+      %option{ :value => "94" } Филиппины
+      %option{ :value => "25" } Финляндия
+      %option{ :value => "12" } Франция
+      %option{ :value => "173" } Хорватия
+      %option{ :value => "144" } Центральноафриканская Республика
+      %option{ :value => "145" } Чад
+      %option{ :value => "237" } Черногория
+      %option{ :value => "174" } Чехия
+      %option{ :value => "209" } Чили
+      %option{ :value => "175" } Швейцария
+      %option{ :value => "31" } Швеция
+      %option{ :value => "95" } Шри-Ланка
+      %option{ :value => "210" } Эквадор
+      %option{ :value => "146" } Экваториальная Гвинея
+      %option{ :value => "147" } Эритрея
+      %option{ :value => "177" } Эстония
+      %option{ :value => "148" } Эфиопия
+      %option{ :value => "149" } Южно-Африканская Республика
+      %option{ :value => "200" } Ямайка
+      %option{ :value => "96" } Япония
+  .wrp
+  %label.left-side{ :for => "main_country2" } Дата создания:
+  .right-side
+    %select#main_country2.select{ :name => "main_country2" }
+      %option{ :value => "2" } Австралия
+      %option{ :value => "11" } Австрия
+      %option{ :value => "55" } Азербайджан
+    %select#main_country3.select{ :name => "main_country2" }
+      %option{ :value => "2" } Австралия
+      %option{ :value => "11" } Австрия
+      %option{ :value => "55" } Азербайджан
+    %select#main_country4.select{ :name => "main_country4" }
+      %option{ :value => "2" } Австралия
+      %option{ :value => "11" } Австрия
+      %option{ :value => "55" } Азербайджан
+  .wrp
+  %label.left-side{ :for => "logo-input1" } Документы:
+  .right-side
+    %input#logo-input1.file.width-all{ :type => "file", :value => "", :name => "logo1" }/
+    %ul
+      %li
+        Документ 1
+        %input#board.right-radio{ :type => "checkbox", :name => "board1", :value => "1", :checked => "checked" }/
+        %label.right-radio-label{ :for => "board1" } Удалить
+      %li
+        Документ 1
+        %input#news.right-radio{ :type => "checkbox", :name => "news2", :value => "1" }/
+        %label.right-radio-label{ :for => "news2" } Удалить
+  .wrp
+  %label.left-side{ :for => "logo-input2" } Рисунки:
+  .right-side
+    %input#logo-input2.file.width-all{ :type => "file", :value => "", :name => "logo2" }/
+    %ul
+      %li
+        %img{ :src => "/data/", :alt => "" }/
+        %input#board2.right-radio{ :type => "checkbox", :name => "board2", :value => "1", :checked => "checked" }/
+        %label.right-radio-label{ :for => "board2" } Удалить
+      %li
+        %img{ :src => "/data/", :alt => "" }/
+        %input#news2.right-radio{ :type => "checkbox", :name => "news2", :value => "1" }/
+        %label.right-radio-label{ :for => "news2" } Удалить
+  .wrp
+  %label.left-side{ :for => "logo-input3" } Другие опции:
+  .right-side
+    %ul
+      %li
+        %input#board3.right-radio{ :type => "checkbox", :name => "board3", :value => "1", :checked => "checked" }/
+        %label.right-radio-label{ :for => "board3" } Прибор снят с производства
+      %li
+        %input#news3.right-radio{ :type => "checkbox", :name => "news3", :value => "1" }/
+        %label.right-radio-label{ :for => "news3" } Показывать в списке популярных приборов
+  %h4 Документация
+  %table.common
+    %thead
+      %tr
+        %th.col_1.first
+          %div<
+            %div< Документ
+        %th.col_2
+          %div<
+            %div< Размер
+        %th.col_3
+          %div<
+            %div< Дата
+        %th.col_4.last
+          %div<
+            %div< Публикации
+    %tbody
+      %tr.odd
+        %td.col_1.first Документ
+        %td.col_2 Размер
+        %td.col_3 Дата
+        %td.col_4.last Публикации
+      %tr.even
+        %td.col_1.first Документ
+        %td.col_2 Размер
+        %td.col_3 Дата
+        %td.col_4.last Публикации
+      %tr.odd
+        %td.col_1.first Документ
+        %td.col_2 Размер
+        %td.col_3 Дата
+        %td.col_4.last Публикации
+      %tr.even
+        %td.col_1.first Документ
+        %td.col_2 Размер
+        %td.col_3 Дата
+        %td.col_4.last Публикации

@@ -5,6 +5,9 @@ class VzletController < ApplicationController
   def mainPage
   end
 
+  def forms
+  end
+
   def otziv
   end
 
